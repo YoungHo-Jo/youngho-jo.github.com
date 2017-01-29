@@ -3,8 +3,8 @@
 	<channel>
 		<title>ZeroH</title>
 		<description>Software Developer</description>
-		<link>http://youngho-jo.github.io</link>
-		<atom:link href="http://youngho-jo.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Text formatting</title>
@@ -70,8 +70,8 @@
 &lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;R&lt;/code&gt; = finds the last command matching the entered letters.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 03 Nov 2016 01:25:06 +0900</pubDate>
-				<link>http://youngho-jo.github.io/2016/11/text-formatting</link>
-				<guid isPermaLink="true">http://youngho-jo.github.io/2016/11/text-formatting</guid>
+				<link>/2016/11/text-formatting</link>
+				<guid isPermaLink="true">/2016/11/text-formatting</guid>
 			</item>
 		
 	</channel>
