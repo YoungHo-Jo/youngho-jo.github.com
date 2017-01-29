@@ -6,5 +6,73 @@
 		<link>http://youngho-jo.github.io</link>
 		<atom:link href="http://youngho-jo.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
+			<item>
+				<title>Text formatting</title>
+				<description>&lt;h1 id=&quot;text-formatting-example&quot;&gt;Text formatting example&lt;/h1&gt;
+
+&lt;p&gt;Some examples of text formatting for some common text elements.&lt;/p&gt;
+
+&lt;h1 id=&quot;headers&quot;&gt;Headers&lt;/h1&gt;
+
+&lt;h1 id=&quot;header1&quot;&gt;Header1&lt;/h1&gt;
+
+&lt;h2 id=&quot;header2&quot;&gt;Header2&lt;/h2&gt;
+
+&lt;h3 id=&quot;header3&quot;&gt;Header3&lt;/h3&gt;
+
+&lt;h4 id=&quot;header4&quot;&gt;Header4&lt;/h4&gt;
+
+&lt;h1 id=&quot;emphasis&quot;&gt;Emphasis&lt;/h1&gt;
+
+&lt;p&gt;Italics: &lt;code class=&quot;highlighter-rouge&quot;&gt;*asterisks*&lt;/code&gt; -&amp;gt; &lt;em&gt;asterisks&lt;/em&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;_underscores_&lt;/code&gt; -&amp;gt; &lt;em&gt;underscores&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Bold: &lt;code class=&quot;highlighter-rouge&quot;&gt;**asterisks**&lt;/code&gt; -&amp;gt; &lt;strong&gt;asterisks&lt;/strong&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;__underscores__&lt;/code&gt; -&amp;gt; &lt;strong&gt;underscores&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You also can combine them: &lt;code class=&quot;highlighter-rouge&quot;&gt;**asterisks and _underscores_**&lt;/code&gt; -&amp;gt; &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;blockquotes-and-notes&quot;&gt;Blockquotes and notes&lt;/h1&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&amp;gt;Blockquotes&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Blockquotes&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Using very cool &lt;a href=&quot;http://kramdown.gettalong.org/quickref.html#block-attributes&quot;&gt;feature&lt;/a&gt; of kramdown which allows to assign any attribute to a block-level element I’ve added note and warning:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&amp;gt;Note 
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;: .note&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;
+  &lt;p&gt;Note&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&amp;gt;Warning 
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;: .note .warning&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote class=&quot;note warning&quot;&gt;
+  &lt;p&gt;Warning&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;keyboard-buttons&quot;&gt;Keyboard buttons&lt;/h1&gt;
+
+&lt;p&gt;In case you need to show some keyboard shortcuts, like &lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt;+&lt;code class=&quot;key highlighter-rouge&quot;&gt;A&lt;/code&gt; use following construction:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;Ctrl&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;: .key&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;+&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;A&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;:.key&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Example of keyboard shortcuts in a terminal:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;A&lt;/code&gt; = move cursor to beginning of line&lt;br /&gt;
+&lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;E&lt;/code&gt; = move cursor to end of line&lt;br /&gt;
+&lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;C&lt;/code&gt; = kills the current process.&lt;br /&gt;
+&lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;Z&lt;/code&gt; = sends the current process to the background.&lt;br /&gt;
+&lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;D&lt;/code&gt; = logs you out.&lt;br /&gt;
+&lt;code class=&quot;key highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;key highlighter-rouge&quot;&gt;R&lt;/code&gt; = finds the last command matching the entered letters.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 03 Nov 2016 01:25:06 +0900</pubDate>
+				<link>http://youngho-jo.github.io/2016/11/text-formatting</link>
+				<guid isPermaLink="true">http://youngho-jo.github.io/2016/11/text-formatting</guid>
+			</item>
+		
 	</channel>
 </rss>
