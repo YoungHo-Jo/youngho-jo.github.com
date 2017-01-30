@@ -3,8 +3,25 @@
 	<channel>
 		<title>ZeroH</title>
 		<description>Software Developer</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Frist Post</title>
+				<description>&lt;h1 id=&quot;첫-포스티&quot;&gt;첫 포스티&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;하이&lt;/li&gt;
+  &lt;li&gt;마이&lt;/li&gt;
+  &lt;li&gt;ㅇ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;라라랄ㄹ&lt;/p&gt;
+</description>
+				<pubDate>Mon, 30 Jan 2017 09:01:56 +0900</pubDate>
+				<link>http://localhost:4000/2017/01/first-post</link>
+				<guid isPermaLink="true">http://localhost:4000/2017/01/first-post</guid>
+			</item>
 		
 	</channel>
 </rss>
