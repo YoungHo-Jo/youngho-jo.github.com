@@ -17,7 +17,7 @@ Credits: http://localhost:4000/disclosure
 
 <title>
   
-    Blog &middot; ZeroH
+    Blog · ZeroH
   
 </title>
 
@@ -48,7 +48,7 @@ Credits: http://localhost:4000/disclosure
 <meta property="fb:admins" content="817465054">
 
 <!-- Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400|Tangerine|Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400%7CTangerine%7CInconsolata">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/public/css/iconmoon.css">
 
@@ -80,7 +80,7 @@ Credits: http://localhost:4000/disclosure
 <!-- 180x180 (precomposed) for iPhone 6 -->
 <link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/images/icons/apple-touch-icon-180x180.png">
 <!-- 192x192 (precomposed) for Android -->
-<link rel="icon" type="image/png" sizes="192x192"  href="http://localhost:4000/images/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:4000/images/icons/android-icon-192x192.png">
 
 
 <link rel="canonical" href="http://localhost:4000/">
@@ -141,8 +141,7 @@ Credits: http://localhost:4000/disclosure
 <div class="searchcont2">
     <!-- span class="searchicon2"><i class="fa fa-search fa-2x"></i></span -->
     <form role="search" method="get" action="http://localhost:4000/cse/">
-        <input id="searchString2" name="searchString2"
-               placeholder=" Search" type="text">
+        <input id="searchString2" name="searchString2" placeholder=" Search" type="text">
     </form>
 </div>
 </div>
@@ -170,20 +169,6 @@ Credits: http://localhost:4000/disclosure
         
 <div class="posts">
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="http://localhost:4000/blog/2013/01/01/example_content/">
-        Example content
-      </a>
-    </h1>
-
-  <span class="post-date indexpg" itemprop="datePublished" content="2013-01-01"><i class="fa fa-calendar" title="Date published"> 01 Jan 2013</i> <a href="http://localhost:4000/featured" title="Featured posts"><i class="social-icons" title="Featured"></i></a></span>
-
- Example content from lanyon. If page description is more than 140 words, it will be shown as post summary on home page and blog index else post excerpt will be shown. Same rule is for html meta description: &gt;140 words in description or first 50 words of posts will be shown as summary. Page excerpt supports markdown formatted summary.
- <a href="http://localhost:4000/blog/2013/01/01/example_content/" title="Read more"><strong>Read more...</strong></a>
-  </div>
-  <hr class="transp" />
-  
 </div>
 
 <div class="posts">
@@ -191,19 +176,178 @@ Credits: http://localhost:4000/disclosure
   
   <div class="post">
     <h1 class="post-title">
-      <a href="http://localhost:4000/blog/2015/01/31/whats-jekyll/">
-        What's Jekyll?
+      <a href="http://localhost:4000/blog/2017/02/02/swift/">
+        Swift에서 캘린더 다루기
       </a>
     </h1>
 
-  <span class="post-date indexpg" itemprop="datePublished" content="2015-01-31"><i class="fa fa-calendar" title="Date published"> 31 Jan 2015</i></span>
+  <span class="post-date indexpg" itemprop="dateModified" content="2017-02-02"><i class="fa fa-edit" title="Last updated"> 02 Feb 2017</i></span>
 
- <a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project’s readme</a>:
+ <h3 id="구조">구조</h3>
+<blockquote>
+  EventKit
+</blockquote>
 
- <a href="http://localhost:4000/blog/2015/01/31/whats-jekyll/" title="Read more"><strong>Read more...</strong></a>
+swift에서 캘린더를 활용하기 위해서는, <strong>EventKit</strong>을 import해야한다.
+
+<figure class="highlight"><pre><code class="language-swfit" data-lang="swfit">import EventKit</code></pre></figure>
+
+<blockquote>
+  EKEventStore
+</blockquote>
+
+event의 fetch, create, edit, delete 작업은 <strong>EKEventStore</strong>를 선언하여 유저 캘런더 DB에 접근한다.
+
+<blockquote>
+  EKEvent
+</blockquote>
+
+캘린더 DB에 등록되는 실제 event이다.
+
+<h3 id="주의사항">주의사항</h3>
+<strong>EKEventStore</strong>을 init 할때는 큰 시간이 걸리기 때문에,
+event를 각각 추가하거나 삭제할때마다 불러오면, 성능에 악영향을 끼친다.
+따라서, 앱 실행시 한 번만 init하고 죽지않게 살려둔다.
+
+<h3 id="event를-불러오는-두-가지-방법">Event를 불러오는 두 가지 방법</h3>
+
+<h4 id="predicates-사용">Predicates 사용</h4>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="c1">// EKEventStore</span>
+<span class="kd">func</span> <span class="nf">events</span><span class="p">(</span><span class="n">matching</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">NSPredicate</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">EKEvent</span><span class="p">]</span></code></pre></figure>
+
+<div class="highlighter-rouge">
+<pre class="highlight"><code>- predicate:
+검색을 위한 predicate
+predicateForEvents(withStart:end:calendars:) 메소드를 사용해서 만들어야 한다.
+</code></pre>
+</div>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="c1">// EKEventStore</span>
+<span class="kd">func</span> <span class="nf">predicateForEvents</span><span class="p">(</span><span class="n">withStart</span> <span class="nv">startDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">end</span> <span class="nv">endDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">calendars</span><span class="p">:</span> <span class="p">[</span><span class="kt">EKCalendar</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt">NSPredicate</span></code></pre></figure>
+
+<div class="highlighter-rouge">
+<pre class="highlight"><code>- return
+predicate을 만족하는 모든 event를 EKEvent array형태로 리턴
+    
+- Synchronous
+동기적으로 작동하기 때문에, 한 개의 event가 등록되고 나서
+다음 event가 등록되어야 한다.
+</code></pre>
+</div>
+
+<h4 id="unique-identifiers-사용">Unique Identifiers 사용</h4>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="c1">// EKEventStore</span>
+<span class="kd">func</span> <span class="nf">event</span><span class="p">(</span><span class="n">withIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">EKEvent</span><span class="p">?</span></code></pre></figure>
+
+<div class="highlighter-rouge">
+<pre class="highlight"><code>- return
+identifier를 만족하는 첫 번째 발견된 event를 리턴
+    
+- identifier
+</code></pre>
+</div>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="c1">// EKEvent</span>
+<span class="k">var</span> <span class="nv">eventIdentifier</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre></figure>
+
+<div class="highlighter-rouge">
+<pre class="highlight"><code>위의 속성을 event에서 가져올 수 있다.
+</code></pre>
+</div>
+ <a href="http://localhost:4000/blog/2017/02/02/swift/" title="Read more"><strong>Read more...</strong></a>
   </div>
-  <hr class="transp" />
+  <hr class="transp">
   
+  
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://localhost:4000/blog/2017/02/02/uitableview/">
+        UITableView
+      </a>
+    </h1>
+
+  <span class="post-date indexpg" itemprop="dateModified" content="2017-02-02"><i class="fa fa-edit" title="Last updated"> 02 Feb 2017</i></span>
+
+ <h2 id="cocoatouchswift-uitableview">CocoaTouch/Swift) UITableView</h2>
+
+<h3 id="기본적인-uitableview-다루는-방법">기본적인 UITableView 다루는 방법</h3>
+<h3 id="1-viewcontroller-상속받기">1. ViewController 상속받기</h3>
+사용중인 viewController에 UITableViewDelegate와, UITableViewDataSource를 상속 받는다.
+
+<h3 id="2-override할-메소드를-적어준다">2. override할 메소드를 적어준다.</h3>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">numberOfRowsInSection</span><span class="p">:)</span>
+	<span class="c1">// 보여줄 아이템의 개수를 리턴하는 메소드</span>
+        
+<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">cellForRowAtIndexPath</span><span class="p">:)</span>
+	<span class="c1">// 각 Row마다 보여줄 Cell 을 만들어 리턴하는 메소드</span>
+    
+<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">didSelectRowAtIndexPath</span><span class="p">:)</span>
+	<span class="c1">// Row가 select되면 불려질 메소드</span></code></pre></figure>
+
+<h3 id="3-outlet-연결하기">3. Outlet 연결하기</h3>
+<blockquote>
+  tableView
+DataSource
+Delegate
+</blockquote>
+
+DataSource와 Delegate는 tableView를 우클릭하면 나오는 화면에서 확인할 수 있다.
+
+<h3 id="4-viewdidload-수정하기">4. viewDidLoad() 수정하기</h3>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="nf">register</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span><span class="n">cellClass</span><span class="p">)</span>
+    <span class="c1">// cell 에 사용할 class 를 identifier를 이용해서 정해준다.</span>
+    
+<span class="c1">// ex)</span>
+<span class="k">self</span><span class="o">.</span><span class="n">tableView</span><span class="o">.</span><span class="nf">register</span><span class="p">(</span><span class="kt">UITableViewCell</span><span class="o">.</span><span class="k">self</span><span class="p">,</span> <span class="nv">forCellReuseIdentifier</span><span class="p">:</span> <span class="s">"cell"</span><span class="p">)</span></code></pre></figure>
+
+<h3 id="5-items-collection-을-만든다">5. items collection 을 만든다.</h3>
+
+<h3 id="6-2의-메소드-수정하기">6. 2의 메소드 수정하기</h3>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="n">numberOfRowsInSection</span><span class="p">)</span>
+   	<span class="c1">// 5에서 만들어진 item 개수를 리턴하게 한다.</span>
+        
+<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">cellForRowAtIndexPath</span><span class="p">:)</span>
+	<span class="c1">// cell 을 만든다    </span>
+<span class="c1">// ex)</span>
+<span class="p">{</span>
+  <span class="k">var</span> <span class="nv">cell</span><span class="p">:</span><span class="kt">UITableViewCell</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">tableView</span><span class="o">.</span><span class="nf">dequeueReusableCellWithIdentifier</span><span class="p">(</span><span class="s">"cell"</span><span class="p">)</span> <span class="k">as</span> <span class="kt">UITableViewCell</span> <span class="c1">// cell 을 만들고</span>
+  <span class="n">cell</span><span class="o">.</span><span class="n">textLabel</span><span class="p">?</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">items</span><span class="p">[</span><span class="n">indexPath</span><span class="o">.</span><span class="n">row</span><span class="p">]</span> <span class="c1">// cell textLabel 을 설정해서</span>
+  <span class="k">return</span> <span class="n">cell</span> <span class="c1">// 리턴</span>
+<span class="p">}</span>
+    
+<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">didSelectRowAtIndexPath</span><span class="p">:)</span> 
+   	<span class="c1">// cell 이 선택되었을때 하고싶은 동작을 여기에 구현한다</span></code></pre></figure>
+
+<h3 id="custom-cell-만들어-적용하기">Custom Cell 만들어 적용하기</h3>
+
+<h3 id="1-uitablecell-을-상속받는-class를-만든다">1. UITableCell 을 상속받는 class를 만든다.</h3>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="kd">class</span> <span class="kt">CustomCell</span><span class="p">:</span> <span class="kt">UITableCell</span> <span class="p">{}</span></code></pre></figure>
+
+<h3 id="2-storyboard에서-tablecell을-추가한다">2. storyBoard에서 tableCell을 추가한다</h3>
+storyBoard에서 custom cell 을 사용하고 싶은 tableView 내부에 tableViewCell 을 추가하여, 원하는 디자인으로 수정한다.
+
+<h3 id="3-디자인한-cell-과-customcell과-연결한다">3. 디자인한 Cell 과 CustomCell과 연결한다.</h3>
+CustomCell class 내부에 cell 마다 다르게 하고 싶은것을 연결한다.
+
+<h3 id="4-viewcontroller에서-메소드를-수정한다">4. ViewController에서 메소드를 수정한다.</h3>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift">	
+<span class="nf">viewDidLoad</span><span class="p">()</span>
+	<span class="c1">// register 클래스를 바꾸어 준다.</span>
+        
+<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span><span class="nv">cellForRowAtIndexPath</span><span class="p">:)</span>
+	<span class="c1">// CustomCell 앞의 방법과 비슷하게 만들어 주고</span>
+	<span class="c1">// cell에 연결된 값을 수정하여 리턴시켜준다.</span></code></pre></figure>
+
+ <a href="http://localhost:4000/blog/2017/02/02/uitableview/" title="Read more"><strong>Read more...</strong></a>
+  </div>
   
   
   
@@ -218,8 +362,10 @@ Credits: http://localhost:4000/disclosure
                     <div class="custom-footer" style="display: block;">
             <div class="footer-social-icons">
             </div>
-            <h6 class="text-footer"><a rel="license" href="http://localhost:4000/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure" class="social-icon"><i class="fa fa-creative-commons"></i></a> <a rel="license" href="http://localhost:4000/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure">2017-2017</a>: <a href="http://localhost:4000" title="Home">youngho-jo.github.com</a>
-            </div>
+            <h6 class="text-footer">
+<a rel="license" href="http://localhost:4000/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure" class="social-icon"><i class="fa fa-creative-commons"></i></a> <a rel="license" href="http://localhost:4000/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure">2017-2017</a>: <a href="http://localhost:4000" title="Home">youngho-jo.github.com</a>
+            </h6>
+</div>
 
       </div>
     </div>
