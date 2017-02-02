@@ -1,11 +1,21 @@
 ---
 layout: post
 title: What's Jekyll?
-# date element overrides date in title format.
 date: 2015-1-31
 tag:
   - common_tag
   - other_tag
+published: false
+modified: '2017-02-02 14:00 +0900'
+imagefeature: sitelogo.png
+show_meta: true
+comments: true
+mathjax: false
+gistembed: false
+noindex: false
+hide_printmsg: false
+sitemap: true
+summaryfeed: false
 ---
 
 [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
