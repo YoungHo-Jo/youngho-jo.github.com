@@ -17,7 +17,8 @@ tags:
   - Swift
 ---
 ## Cocoa Core Competencies) Delegation
-참고자료: https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Delegation.html#//apple_ref/doc/uid/TP40008195-CH14-SW2
+참고자료:
+Apple Development<a href="https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Delegation.html#//apple_ref/doc/uid/TP40008195-CH14-SW2">
 
 ### 정의
 Delegation은 object가 작동하고, 상호작용하는 간단하고 강력한 pattern 이다.
