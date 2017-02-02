@@ -27,7 +27,7 @@ tags:
 ### 2. override할 메소드를 적어준다.
 {% highlight swift %}
 tableView(_: numberOfRowsInSection:)
-    // 보여줄 아이템의 개수를 리턴하는 메소드
+	// 보여줄 아이템의 개수를 리턴하는 메소드
         
 tableView(_: cellForRowAtIndexPath:)
 	// 각 Row마다 보여줄 Cell 을 만들어 리턴하는 메소드
@@ -88,11 +88,11 @@ CustomCell class 내부에 cell 마다 다르게 하고 싶은것을 연결한�
 ### 4. ViewController에서 메소드를 수정한다.
 {% highlight swift %}	
 viewDidLoad()
-   	// register 클래스를 바꾸어 준다.
+	// register 클래스를 바꾸어 준다.
         
 tableView(_:cellForRowAtIndexPath:)
-   	// CustomCell 앞의 방법과 비슷하게 만들어 주고
-    // cell에 연결된 값을 수정하여 리턴시켜준다.
+	// CustomCell 앞의 방법과 비슷하게 만들어 주고
+	// cell에 연결된 값을 수정하여 리턴시켜준다.
 {% endhighlight %}
         
 
