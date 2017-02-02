@@ -50,7 +50,7 @@ register(_:cellClass)
     
 // ex)
 self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-{% highlightend %}
+{% endhighlight %}
     
 ### 5. items collection 을 만든다.
 
@@ -70,13 +70,13 @@ tableView(_: cellForRowAtIndexPath:)
     
 tableView(_: didSelectRowAtIndexPath:) 
    	// cell 이 선택되었을때 하고싶은 동작을 여기에 구현한다
-{% highlightend %}        
+{% endhighlight %}        
         
 ### Custom Cell 만들어 적용하기
 ### 1. UITableCell 을 상속받는 class를 만든다.
 {% highlight swift %}
 class CustomCell: UITableCell {}
-{% highlightend %}
+{% endhighlight %}
     
 ### 2. storyBoard에서 tableCell을 추가한다
 storyBoard에서 custom cell 을 사용하고 싶은 tableView 내부에 tableViewCell 을 추가하여, 원하는 디자인으로 수정한다.
@@ -92,6 +92,6 @@ viewDidLoad()
 tableView(_:cellForRowAtIndexPath:)
    	// CustomCell 앞의 방법과 비슷하게 만들어 주고
     // cell에 연결된 값을 수정하여 리턴시켜준다.
-{% highlightend %}
+{% endhighlight %}
         
 
