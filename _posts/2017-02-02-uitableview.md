@@ -73,6 +73,7 @@ tableView(_: didSelectRowAtIndexPath:)
 {% endhighlight %}        
         
 ### Custom Cell 만들어 적용하기
+
 ### 1. UITableCell 을 상속받는 class를 만든다.
 {% highlight swift %}
 class CustomCell: UITableCell {}
