@@ -1,19 +1,11 @@
 ---
 layout: default
 permalink: index.html
-title: Personal Homepage of foo boo
+title: Blog
 description: "Blogging on ...."
 ---
 
-## [lanyon-plus](https://github.com/dyndna/lanyon-plus)
 
-Based on Jekyll theme: [Lanyon](http://lanyon.getpoole.com) by [**Mark Otto**](https://github.com/mdo)
-
-* add-ons by [Samir Amin](http://sbamin.com)
-* [Site features]({{ site.url}}/disclosure#i-classfa-fa-thumbs-o-up-credits-for-site-featuresi)
-* License: Open sourced under the [MIT license](http://sbamin.com/disclosure/#theme-major-credit--license). 
-
-Maximum four posts on front page where first two posts are featured, and remaining are date sorted.
 
 {% if site.twitter_widget_id %}
 <div class="text-tweets">
@@ -33,8 +25,9 @@ Maximum four posts on front page where first two posts are featured, and remaini
 </script>
 </div>
 {% else %}
-Twitter stream will show up here if `twitter_widget_id` is present is `_config.yml`. [Demo](http://sbamin.com)
 {% endif %}
+
+
 
 <div class="posts">
   {% for post in site.categories.featured limit:2 %}
