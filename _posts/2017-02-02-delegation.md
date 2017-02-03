@@ -35,9 +35,10 @@ Appkit framework의 NSWindow는 <strong>windowShouldClose:</strong> protocol을 
 그에 따라서 window object가 처리되는것이다.
 
 ### Delegation and Notifications
+The delegate of most Cocoa framework classes is automatically registered as an observer of notifications posted by the delegating object. The delegate need only implement a notification method declared by the framework class to receive a particular notification message. Following the example above, a window object posts an NSWindowWillCloseNotification to observers but sends a windowShouldClose: message to its delegate.
 
+### Data Source
+A data source is almost identical to a delegate. The difference is in the relationship with the delegating object. Instead of being delegated control of the user interface, a data source is delegated control of data. The delegating object, typically a view object such as a table view, holds a reference to its data source and occasionally asks it for the data it should display. A data source, like a delegate, must adopt a protocol and implement at minimum the required methods of that protocol. Data sources are responsible for managing the memory of the model objects they give to the delegating view.
 
-작성중...
-
-
+작성중 ...
 
