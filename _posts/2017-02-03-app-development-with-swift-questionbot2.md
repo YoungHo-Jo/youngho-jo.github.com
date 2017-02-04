@@ -16,7 +16,6 @@ title: App Development with Swift) QuestionBot2 구성 파헤치기
 description: iBooks - App Development with Swift
 tags:
   - Swift
-category: ''
 ---
 ## iBooks - "App Development with Swift"
 Apple에서 제작한 책으로, iBooks Store에서 다운받을 수 있다.
@@ -57,9 +56,9 @@ Main.stroyboard의 TableView를 담고있는 Controller이다.
 유저로부터 질문을 받았을 때, 질문에 해당하는 답변을 처리하는 (struct)****QeustionAnswerer****를 정의한다.
 이 struct는 한 개의 (method)****responseTo(question:)****을 정의한다.
 이 메소드는,
-1. 질문의 첫 단어가 "hello" 일 떄, "why, hello there!"
+1. 질문의 첫 단어가 "hello" 일 때, "why, hello there!"
 2. 질문이 "where are the cookies?" 일 때, "In the cookie jar!"
-3. 질문의 첫 단어가 "where" 일 떄, "To the North!"
+3. 질문의 첫 단어가 "where" 일 때, "To the North!"
 4. 위 세 가지 상황에 맞지않는 질문일 땐, 질문 길이를 mod 3하여 나오는 값으로 대답의 종류르 3가지로 구분하여 대답한다.
 
 #### ConversationDataSource.swift
@@ -89,5 +88,3 @@ fileprivate func respondToQuestion(_ questionText: String) {
 	
 }
 {% endhighlight %}
-
-
