@@ -44,9 +44,9 @@ Weighted Signals 을 합쳐 Threshold를 넘으면 Fire
 ## Artifical Neurons
 ![스크린샷 2018-03-28 오후 3.38.52.png]({{site.baseurl}}/images/media/스크린샷 2018-03-28 오후 3.38.52.png)
 binary inputs이 들어오고 weights와 곱해져서 더해짐
-z 를 ****pre-activation**** 이라함
+z 를 **pre-activation** 이라함
 ![스크린샷 2018-03-28 오후 3.40.52.png]({{site.baseurl}}/images/media/스크린샷 2018-03-28 오후 3.40.52.png)
-****bias**** = b (contant factor)
+**bias** = b (contant factor)
 ![스크린샷 2018-03-28 오후 3.40.26.png]({{site.baseurl}}/images/media/스크린샷 2018-03-28 오후 3.40.26.png)
 편의상 bias와 weight vector를 합친다.
 
