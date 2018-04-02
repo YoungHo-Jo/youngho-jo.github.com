@@ -30,11 +30,11 @@ https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/
 
 ## Term
 **Neuron**  
-========
+
 **Layer** Neuron 집합  
-========
+
 **Perceptron** Layer집합, Neural Network
-========
+
 ## Biological Neurons
 Binary Inputs 받음
 하지만, Weight 된 만큼 각 Input들이 다루어 짐
