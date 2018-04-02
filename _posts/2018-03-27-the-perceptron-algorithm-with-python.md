@@ -30,7 +30,7 @@ https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/
 
 ## Term
 ****Neuron
-****Layer Neuron 집합
+**Layer Neuron** 집합
 ****Perceptron Layer집합, Neural Network
 
 ## Biological Neurons
