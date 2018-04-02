@@ -15,7 +15,6 @@ sitemap: true
 summaryfeed: false
 title: The Perceptron Algorithm with Python
 tags:
-  - default
   - Perceptron
   - AI
   - Python
