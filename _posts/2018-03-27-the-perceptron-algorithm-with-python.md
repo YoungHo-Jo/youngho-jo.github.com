@@ -29,9 +29,9 @@ https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/
 간단한 Artifical Neural Network
 
 ## Term
-**Neuron**
-**Layer Neuron** 집합
-****Perceptron Layer집합, Neural Network
+**Neuron
+**Layer Neuron 집합
+**Perceptron Layer집합, Neural Network
 
 ## Biological Neurons
 Binary Inputs 받음
