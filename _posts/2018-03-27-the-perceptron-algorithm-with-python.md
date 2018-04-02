@@ -15,6 +15,7 @@ sitemap: true
 summaryfeed: false
 title: The Perceptron Algorithm with Python
 tags:
+  - default
   - Perceptron
   - AI
   - Python
@@ -28,9 +29,9 @@ https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/
 간단한 Artifical Neural Network
 
 ## Term
-****Neuron
-****Layer**** Neuron 집합
-****Perceptron**** Layer집합, Neural Network
+**Neuron
+**Layer** Neuron 집합
+**Perceptron** Layer집합, Neural Network
 
 ## Biological Neurons
 Binary Inputs 받음
@@ -83,12 +84,3 @@ Error = Desired Output - Predicted Output
 새 Weight = 기존 Weight + Hyperparameter(Leraing Rate) * Error * x
 
 ****Epoch*** one epoch는 Perceptron이 Training data를 한 번 훑었을 때를 말한다.
-
-
-
-
-
-
-
-
-
