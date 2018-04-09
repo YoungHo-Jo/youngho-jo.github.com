@@ -37,6 +37,7 @@ creator.create('Individual', list, fitness=creator.FitnessMin)
 타입 생성수 랜덤 값을 넣는 과정
 
 `base.Toolbox()`
+
 initilizer를 담고 있는 Container
 
 `
