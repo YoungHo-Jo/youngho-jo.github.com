@@ -4,8 +4,6 @@ published: true
 date: '2018-04-09 19:10 +0900'
 modified: '2018-04-09 19:10 +0900'
 category: base
-tags:
-  - default
 imagefeature: sitelogo.png
 show_meta: true
 comments: true
@@ -16,7 +14,10 @@ hide_printmsg: false
 sitemap: true
 summaryfeed: false
 title: Genetic Algorithm using DEAP
-description: ''
+tags:
+  - Python
+  - DEAP
+  - Genetic Algorithm
 ---
 ## Overview
 유연성 제공
