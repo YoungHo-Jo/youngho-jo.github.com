@@ -27,11 +27,11 @@ tags:
 
 `creator`
 
-`
-from deap import base, crerator
-creator.create('FitnessmMin', base.Fitness, weights=(-1, 0, ))
-creator.create('Individual', list, fitness=creator.FitnessMin)
-`
+
+	from deap import base, crerator
+	creator.create('FitnessmMin', base.Fitness, weights=(-1, 0, ))
+	creator.create('Individual', list, fitness=creator.FitnessMin)
+    
 
 ## Initialization
 타입 생성수 랜덤 값을 넣는 과정
