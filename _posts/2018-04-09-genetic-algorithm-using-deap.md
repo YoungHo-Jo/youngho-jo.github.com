@@ -118,8 +118,28 @@ def main():
 
             	
     	
+## Installation
+Python 2.7 / 3.4+ 가능
 
+`SCOOP` 다중연산
 
+`Numpy` CMA-ES
+
+`matplotlib` 시각화
+
+필요
+
+**설치**
+
+`easy_intsall deap`
+
+or
+
+`pip install deap`
+
+or from source
+
+`python setup.py intsall`
 
 
 
