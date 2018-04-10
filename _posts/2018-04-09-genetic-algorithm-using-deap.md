@@ -94,6 +94,10 @@ def main():
 	    # Clone the selected individuals
     	offspring = map(toolbox.clone, offspring)
         
+        #### map object => list 
+        offspring = list(offspring)
+        
+        
        	# Apply crossover and mutation on the offspring
 	    for child1, child2 in zip(offspring[::2], offspring[1::2]):
     	    if rarndom.random() < CXPB:
