@@ -40,16 +40,17 @@ tags:
 
 initilizer를 담고 있는 Container
 
+```python
+import random
+from deap import tools
 
-	import random
-	from deap import tools
+IND_SIZE = 10 # indivisual size
 
-	IND_SIZE = 10 # indivisual size
-
-	toolbox = base.Toolbox()
-	toolbox.register('attribute', radnom.radnom) # random 
-	toolbox.register('indivisual', tools.initRepeat, creator.Individual, toolbox.attritute, n=IND_SIZE) # indivisual 생성
-	toolbox.register('population', tools.initRepeat, list, toolbox.indivisual) # population 생성
+toolbox = base.Toolbox()
+toolbox.register('attribute', radnom.radnom) # random 
+toolbox.register('indivisual', tools.initRepeat, creator.Individual, toolbox.attritute, n=IND_SIZE) # indivisual 생성
+toolbox.register('population', tools.initRepeat, list, toolbox.indivisual) # population 생성
+```
 
 
 ## Operators
