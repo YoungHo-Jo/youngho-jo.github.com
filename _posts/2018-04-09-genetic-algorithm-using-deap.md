@@ -63,7 +63,7 @@ initializer 와 비슷하나, tools 모듈에 이미 정의
 
 ```python
 def evalutae(indivisual): # 사용자 정의 Evalutation
-return sum(indivisual), # fitness 값은 iterable해야하기 때문에 tuple 반환
+	return sum(indivisual), # fitness 값은 iterable해야하기 때문에 tuple 반환
     
 toolbox.register('mate', tools.cxTwoPoint)
 toolbox.register('mutate', tools.mutGaussian, mu=0, sigma=1, indpb=0.1)
