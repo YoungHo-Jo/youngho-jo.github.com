@@ -48,11 +48,13 @@ from deap import tools
 IND_SIZE = 10 # indivisual size
 
 toolbox = base.Toolbox()
-toolbox.register('attribute', radnom.radnom) # random 
+toolbox.register('attribute', random.random) # random 
+# indivisual 생성
 toolbox.register('indivisual', tools.initRepeat, 
-				creator.Individual, toolbox.attritute, n=IND_SIZE) # indivisual 생성
+				creator.Individual, toolbox.attribute, n=IND_SIZE) 
+ # population 생성
 toolbox.register('population', tools.initRepeat,
-				list, toolbox.indivisual) # population 생성
+				list, toolbox.individual)
 ```
 
 
@@ -68,7 +70,8 @@ def evalutae(indivisual): # 사용자 정의 Evalutation
 toolbox.register('mate', tools.cxTwoPoint)
 toolbox.register('mutate', tools.mutGaussian, mu=0, sigma=1, indpb=0.1)
 toolbox.register('select', tools.selTournament, tournsize=3)
-toolbox.register('evalutate', evaluate) # 이름은 toolbox에 의해 재정의됨 (GA가 Operator이름에 의존적이지 않게)
+toolbox.register('evalutate', evaluate) 
+# 이름은 toolbox에 의해 재정의됨 (GA가 Operator이름에 의존적이지 않게)
 ```
 
 ## Algorithms
@@ -77,7 +80,8 @@ main function 을 작성
 ```python
 def main():
 	pop = toolbox.population(n=50) # Population
-   	CXPB, MUTPB, NGEN = 0.5, 0.2, 40 # Crossover probability, Mutation probability, Number of Generation
+   	CXPB, MUTPB, NGEN = 0.5, 0.2, 40 
+    # Crossover probability, Mutation probability, Number of Generation
     
 	# Evaluate the entire population
     fitnesses = map(toolbox.evaluate, pop)
