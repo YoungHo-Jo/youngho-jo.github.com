@@ -28,7 +28,7 @@ tags:
 `creator`
 
 ```python
-from deap import base, crerator
+from deap import base, creator
 creator.create('FitnessmMin', base.Fitness, weights=(-1, 0, ))
 creator.create('Individual', list, fitness=creator.FitnessMin)
 ```
@@ -49,8 +49,10 @@ IND_SIZE = 10 # indivisual size
 
 toolbox = base.Toolbox()
 toolbox.register('attribute', radnom.radnom) # random 
-toolbox.register('indivisual', tools.initRepeat, creator.Individual, toolbox.attritute, n=IND_SIZE) # indivisual 생성
-toolbox.register('population', tools.initRepeat, list, toolbox.indivisual) # population 생성
+toolbox.register('indivisual', tools.initRepeat, 
+				creator.Individual, toolbox.attritute, n=IND_SIZE) # indivisual 생성
+toolbox.register('population', tools.initRepeat,
+				list, toolbox.indivisual) # population 생성
 ```
 
 
