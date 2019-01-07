@@ -20,7 +20,7 @@ tags:
 ---
 ## 많은 큰 기업들이 아직 JAVA를 고집할까?
 
-링크[https://www.quora.com/Why-do-big-companies-still-write-in-Java-Spring-Boot-when-Node-js-is-faster-and-uses-less-resources-for-the-job-that-they-do]
+[링크](https://www.quora.com/Why-do-big-companies-still-write-in-Java-Spring-Boot-when-Node-js-is-faster-and-uses-less-resources-for-the-job-that-they-do)
 
 
 ### NodeJS 장점
