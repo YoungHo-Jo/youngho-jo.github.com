@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 published: true
 date: '2018-03-27 18:05 +0900'
 modified: '2018-03-27 18:05 +0900'
@@ -19,6 +19,7 @@ tags:
   - AI
   - Python
 ---
+
 출처:
 [https://machinelearningmastery.com/implement-perceptron-algorithm-scratch-python/]
 [https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/]

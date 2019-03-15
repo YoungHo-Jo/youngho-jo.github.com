@@ -1,5 +1,19 @@
-            <div class="custom-footer" style="display: block;">
-            <div class="footer-social-icons">
-            </div>
-            <h6 class="text-footer"><a rel="license" href="{{ site.url }}/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure" class="social-icon"><i class="fa fa-creative-commons"></i></a> <a rel="license" href="{{ site.url }}/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure">2017-{{ site.time | date: '%Y' }}</a>: <a href="{{ site.url }}" title="Home">youngho-jo.github.com</a>
-            </div>
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>

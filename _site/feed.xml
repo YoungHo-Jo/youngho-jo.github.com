@@ -1,20 +1,699 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ZeroH</title>
-    <description>ZeroH's blog...</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <updated>2017-02-02T21:23:49+09:00</updated>
-    <id>http://localhost:4000</id>
-    <author>
-      <name>YoungHo</name>
-    </author>
-    
-      <item>
-        <title>Swift에서 캘린더 다루기</title>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-15T13:57:52+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZeroHo’s blog</title><subtitle>Youngho's dev blog</subtitle><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><entry><title type="html">JAVA vs. NodeJS…</title><link href="http://localhost:4000/base/java-vs-nodejs/" rel="alternate" type="text/html" title="JAVA vs. NodeJS... " /><published>2019-01-07T12:31:00+09:00</published><updated>2019-01-07T12:31:00+09:00</updated><id>http://localhost:4000/base/java-vs-nodejs</id><content type="html" xml:base="http://localhost:4000/base/java-vs-nodejs/">&lt;h2 id=&quot;많은-큰-기업들이-아직-java를-고집할까&quot;&gt;많은 큰 기업들이 아직 JAVA를 고집할까?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.quora.com/Why-do-big-companies-still-write-in-Java-Spring-Boot-when-Node-js-is-faster-and-uses-less-resources-for-the-job-that-they-do&quot;&gt;링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nodejs-장점&quot;&gt;NodeJS 장점&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;비동기 IO 처리 가능하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;빠른 개발이 가능하다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;nodejs-단점&quot;&gt;NodeJS 단점&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;JavaScript 한계가 명확하다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;싱글 쓰레드 프로그램이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;변수 타입이 명확하지 못하다 &amp;lt;= 자체 라이브러리를 활용해 해결가능하긴 하다…&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;큰 프로젝트 관리가 힘들다… (가장 큰 이유로 보임)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;java의-장점&quot;&gt;JAVA의 장점&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;많은 사람들이 사용하고 오랫동안 이용되다 보니 검증되고 보완이 지속적으로 잘 이루어져 왔다. (가장 큰 이유로 보임)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nodejs 가 할 수 있는 일 대부분을 할 수 있다!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Big Ecosystem: 아주 많은 라이브러리들과 프레임워크가 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;java의-단점&quot;&gt;JAVA의 단점&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;JAVA다…?&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="base" /><category term="JAVA" /><category term="NodeJs" /><summary type="html">많은 큰 기업들이 아직 JAVA를 고집할까?</summary></entry><entry><title type="html">About Me!</title><link href="http://localhost:4000/info/about-me/" rel="alternate" type="text/html" title="About Me!" /><published>2018-11-12T20:26:00+09:00</published><updated>2018-11-12T20:26:00+09:00</updated><id>http://localhost:4000/info/about-me</id><content type="html" xml:base="http://localhost:4000/info/about-me/">&lt;h2 id=&quot;nothing-is-impossible&quot;&gt;&lt;strong&gt;“NOTHING IS IMPOSSIBLE!”&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;my-history&quot;&gt;My history&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;기간&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;내용&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2018.08&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;#우정부-주최-블록체인-해커톤-대회-참가&quot;&gt;우정부 주최 블록체인 해커톤 대회 참가&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2018.07&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;#미국-샌프란시스코-AngelHack-참여&quot;&gt;미국 샌프란시스코 AngelHack 참여&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2018.07&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;#미국-캘리포니아-산호세-대학-교육-및-실리콘-밸리-방문&quot;&gt;미국 캘리포니아 산호세 대학 교육 및 실리콘 밸리 방문&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2018.04 ~ 10&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;프로젝트: &lt;a href=&quot;#졸업과제: Deep Learning 활용 실내위치기반 Interactive Smart Home IoT&quot;&gt;Deep Learning 활용 실내위치기반 Interactive Smart Home IoT&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2018.03 ~ 11&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;#수상에스티-주식회사&quot;&gt;수상에스티 주식회사 근무&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2018.03 ~ 07&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;토이프로젝트: &lt;a href=&quot;#FaceTube&quot;&gt;FaceTube&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2018.03&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;토이프로젝트: &lt;a href=&quot;#알려줘&quot;&gt;알려줘&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2018.01 ~ 02&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;토이프로젝트: &lt;a href=&quot;#하트비트&quot;&gt;하트비트&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2018&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;부산대학교 정보컴퓨터공학부 4학년&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2017.07 ~&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;프로젝트: &lt;a href=&quot;#코스모즈&quot;&gt;코스모즈&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2017.03 ~ 2018.02&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Apptive 부회장&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2017.03 ~ 07&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;토이프로젝트: &lt;a href=&quot;#거가거가&quot;&gt;거가거가&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2017.01 ~ 03&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;토이프로젝트: &lt;a href=&quot;#편한일정&quot;&gt;편한일정&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2017&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;부산대학교 정보컴퓨터공학부 3학년&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2016.12&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;부산 제 1회 지역선도 대학 육성사업 해커톤 대회&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2016.09 ~ 2017.01&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;프로젝트: &lt;a href=&quot;#Tabmemo&quot;&gt;Tabmemo&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2016.09&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;#Apptive&quot;&gt;Apptive&lt;/a&gt; 참여&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2016&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;부산대학교 정보컴퓨터공학부 2학년&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2014.01 ~ 2015.10&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;육군 복무&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;2013&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;부산대학교 정보컴퓨터공학부 1학년&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;무엇을-했나&quot;&gt;무엇을 했나?&lt;/h2&gt;
+&lt;h3 id=&quot;apptive&quot;&gt;Apptive&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://platum.kr/archives/81477&quot;&gt;인터뷰&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/AppPlusActive/&quot;&gt;페이스북&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;부산대학교 어플리케이션 창업 동아리&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;스마트폰 어플리케이션 기반으로 창업까지 도전해보는 동아리입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;tabmemo&quot;&gt;Tabmemo&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/banner.png&quot; alt=&quot;banner.png&quot; /&gt;
+&lt;img src=&quot;/images/media/detail1.png&quot; alt=&quot;detail1.png&quot; /&gt;
+&lt;img src=&quot;/images/media/detail2.png&quot; alt=&quot;detail2.png&quot; /&gt;
+&lt;img src=&quot;/images/media/detail3.png&quot; alt=&quot;detail3.png&quot; /&gt;
+&lt;img src=&quot;/images/media/detail4.png&quot; alt=&quot;detail4.png&quot; /&gt;
+&lt;img src=&quot;/images/media/deatil5.png&quot; alt=&quot;deatil5.png&quot; /&gt;
+&lt;img src=&quot;/images/media/deatil6.png&quot; alt=&quot;deatil6.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=team2.apptive.tabmemo&amp;amp;hl=ko&quot;&gt;구글플레이 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;처음 학교 외 활동으로 팀을 꾸려 진행한 프로젝트입니다.&lt;/p&gt;
+
+&lt;p&gt;안드로이드 개발을 처음 접해보았습니다. 개발이란 무엇인지 처음 깨달았던 프로젝트이며, 아직도 기억에 많이 남습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;편한일정&quot;&gt;편한일정&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/2018-11-12_23-58-55.png&quot; alt=&quot;2018-11-12_23-58-55.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;맥을 사용한지 얼마 안되어서 배운 Swift 언어를 어디에 사용해볼까 고민하여 개발한 앱입니다.&lt;/p&gt;
+
+&lt;p&gt;학교 과제와 기타 일정을 저의 스타일에 맞게 등록하고자 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;정규식을 활용하여 몇시 부터 몇시 까지, 몇일 후 등의 자연어를 처리할 수 있게 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;Reminders와 연동하여 아이폰을 통해 계속해서 알려줄 수 있게 하였습니다.&lt;/p&gt;
+
+&lt;p&gt;현재는 시리가 키보드 입력으로 가능하여 시리를 사용하고 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;거가거가&quot;&gt;거가거가&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/extJo/isthere&quot;&gt;링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/2018-11-13_00-19-26.png&quot; alt=&quot;2018-11-13_00-19-26.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;학교에서 진행한 프로젝트로, 학교 앞 상업시설에 대해 부산대 학생만 리뷰를 할 수 있는 플랫폼을 만들었습니다.&lt;/p&gt;
+
+&lt;p&gt;Android 기반 어플리케이션으로, NodeJs 를 활용하여 백엔드를 구성하였습니다.&lt;/p&gt;
+
+&lt;p&gt;지도에는 다음맵 API를 사용하였습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;코스모즈&quot;&gt;코스모즈&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/2018-11-13_00-05-16.png&quot; alt=&quot;2018-11-13_00-05-16.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/loading.jpg&quot; alt=&quot;loading.jpg&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;앱티브 동아리에서 진행한 프로젝트입니다.&lt;/p&gt;
+
+&lt;p&gt;React Native기반 하이브리드 어플리케이션으로, Github에서 Private으로 관리되고 있어 사진으로 대체해봅니다.&lt;/p&gt;
+
+&lt;p&gt;React + Redux의 구조로, State의 통합 관리를 꾀하여 작성되었습니다.&lt;/p&gt;
+
+&lt;p&gt;사용된 몇몇 라이브러리들은 사용목적에 맞게 fork 한 후 수정하여 재사용하였습니다.&lt;/p&gt;
+
+&lt;p&gt;어플리케이션의 목적은,&lt;/p&gt;
+
+&lt;p&gt;일상생활에 메말라 버린 감정을 되살리기 위함으로, 소소하고 짧은 예술 미션을 사용자에게 전달하여&lt;/p&gt;
+
+&lt;p&gt;이를 수행하고 다른이들과 공유함으로써 이루어 집니다.&lt;/p&gt;
+
+&lt;p&gt;비즈니스 모델은 공유되는 예술작품들을 모아 작품집으로 발간하여 출시하는 등으로 기획되었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/ieBLEpQPAfI&quot;&gt;데모&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;하트비트&quot;&gt;하트비트&lt;/h3&gt;
+
+&lt;p&gt;인터넷 커뮤니티에서 아두이노와 심박 센서를 활용하여 LED 색상으로 현재 심박 상태를 표현하는 프로토타입 제품을 만드는 사람을 찾길래 지원해서 한 프로젝트 입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;알려줘&quot;&gt;알려줘&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/2018-11-13_00-31-24.png&quot; alt=&quot;2018-11-13_00-31-24.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/YoungHo-Jo/PNU_CSE_telegram_bot&quot;&gt;Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;부산대학교 정보컴퓨터공학부 홈페이지의 게시글을 쉽게 알림 받아 보고자하여 시작하였습니다.&lt;/p&gt;
+
+&lt;p&gt;텔레그램봇을 활용하였습니다. 집에 구성되어있는 라즈베리서버에서 주기적으로 해당 페이지를 접속하고, 게시글을 파싱하여 필요할 경우 봇으로 메세지를 전송합니다.&lt;/p&gt;
+
+&lt;p&gt;알림을 등록/해제 기능이 있으며 링크를 함께 제공하여 알림을 받은 즉시 자세한 내용을 알아 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;학교 홈페이지 게시판을 통해 해당 봇을 공유하고 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;수상에스티-주식회사&quot;&gt;수상에스티 주식회사&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/YoungHo-Jo/OpenCPN&quot;&gt;Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;해당회사에서 wxWidgets 기반 OpenCPN Plugin 개발을 주도했습니다.&lt;/p&gt;
+
+&lt;p&gt;외부에서 오는 위/경도, ID 정보를 Parsing 하고 이를 해도에 찍어냅니다.&lt;/p&gt;
+
+&lt;p&gt;쓰레드, 메시지큐 등을 활용하여 성능향상을 꾀했습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;졸업과제-deep-learning-활용-실내위치기반-interactive-smart-home-iot&quot;&gt;졸업과제: Deep Learning 활용 실내위치기반 Interactive Smart Home IoT&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/YoungHo-Jo/smart-home&quot;&gt;Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;IoT 디바이스 / 러닝 서버 / IoT 서버 / FrontEnd / BackEnd 로 구성된 프로젝트입니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;IoT 디바이스&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.artik.io/modules/artik-020/&quot;&gt;ARTIK 020&lt;/a&gt; / Raspberry Pi&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.silabs.com/products/wireless/bluetooth/bluetooth-low-energy-modules/bgm111-bluetooth-low-energy-module&quot;&gt;BGM111 Blueooth SDK 2.0&lt;/a&gt; / &lt;a href=&quot;https://github.com/IoTKETI/nCube-Thyme-Nodejs&quot;&gt;nCube Thyme&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;러닝 서버&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;GCP&lt;/td&gt;
+      &lt;td&gt;Tensorflow &amp;amp; Keras&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;IoT 서버&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;AWS&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/IoTKETI/Mobius&quot;&gt;Mobius&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;FrontEnd&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;AWS&lt;/td&gt;
+      &lt;td&gt;React &amp;amp; Socket.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BackEnd&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;AWS&lt;/td&gt;
+      &lt;td&gt;NodeJS &amp;amp; Socket.io &amp;amp; MQTT&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;개발 목적&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;집에서 사용자의 명령에 의한 IoT 기기의 작동이 아니라, 사용자의 실내 위치에 의해 자동적으로 제어되는 시스템을 만든다.&lt;/p&gt;
+
+&lt;p&gt;IoT 디바이스는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Blueooth Low Energy&lt;/code&gt; 기반으로 사용자 스마트폰의 BLE Packet을 수집하고 이를 위치정보로 활용합니다.&lt;/p&gt;
+
+&lt;p&gt;수집된 정보는 nCube를 통해 IoT Platform에 올려지게 되고 이를 활용하여 학습 모델을 형성합니다.&lt;/p&gt;
+
+&lt;p&gt;학습 모델은 LSTM 모델에 클러스터링된 위치정보를 이용하여 학습시킨 후 시간적 순서에 따른 위치 변화로 전류 에상치를 측정합니다.&lt;/p&gt;
+
+&lt;p&gt;예상된 측정치를 바탕으로 IoT 디바이스의 ON/OFF 를 결정합니다.&lt;/p&gt;
+
+&lt;p&gt;결정되는 정보와 IoT 디바이스에 연결된 전자기기의 소모전류 정보는 FrontEnd를 통해서 사용자에게 제공됩니다.&lt;/p&gt;
+
+&lt;p&gt;또한, IoT Device를 ON/OFF 시킬 수 있습니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;미국-캘리포니아-산호세-대학-교육-및-실리콘-밸리-방문&quot;&gt;미국 캘리포니아 산호세 대학 교육 및 실리콘 밸리 방문&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/UNADJUSTEDNONRAW_thumb_184.jpg&quot; alt=&quot;UNADJUSTEDNONRAW_thumb_184.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;미국-샌프란시스코-angelhack-참여&quot;&gt;미국 샌프란시스코 AngelHack 참여&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/UNADJUSTEDNONRAW_thumb_be.jpg&quot; alt=&quot;UNADJUSTEDNONRAW_thumb_be.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://angelhack.com&quot;&gt;AngelHack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;AWS에서 제시한&lt;/p&gt;
+
+&lt;p&gt;공유 자전거의 무방비한 방치&lt;/p&gt;
+
+&lt;p&gt;문제를 해결하고자 거점 제도 등을 활용하는 방안을 제시하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/YoungHo-Jo/angelhack_BBS&quot;&gt;Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;우정부-주최-블록체인-해커톤-대회-참가&quot;&gt;우정부 주최 블록체인 해커톤 대회 참가&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/YoungHo-Jo/hackaton_&quot;&gt;Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;facetube&quot;&gt;FaceTube&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/YoungHo-Jo/PNU_term_project_FaceTube&quot;&gt;Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ACHRO 보드를 활용하여 카메라로 사용자의 얼굴을 인식하고 이를 학습된 모델을 기반으로 표정을 읽어냅니다.&lt;/p&gt;
+
+&lt;p&gt;읽어낸 표정을 바탕으로 기분을 유추하고, 미리 정해진 기분에 따른 노래를 유투브에서 가져와 재생을 합니다.&lt;/p&gt;
+
+&lt;p&gt;Frontend에는 &lt;code class=&quot;highlighter-rouge&quot;&gt;React + Sokcet.io&lt;/code&gt; 를 활용하였습니다.&lt;/p&gt;
+
+&lt;p&gt;표정인식에는 Face Classification and detection Open Source를 활용하였습니다.&lt;/p&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="info" /><category term="default" /><category term="ME" /><summary type="html">“NOTHING IS IMPOSSIBLE!”</summary></entry><entry><title type="html">Genetic Algorithm using DEAP - One Max Problem</title><link href="http://localhost:4000/base/genetic-algorithm-using-deap-one-max-problem/" rel="alternate" type="text/html" title="Genetic Algorithm using DEAP - One Max Problem" /><published>2018-04-10T13:16:00+09:00</published><updated>2018-04-10T13:16:00+09:00</updated><id>http://localhost:4000/base/genetic-algorithm-using-deap-one-max-problem</id><content type="html" xml:base="http://localhost:4000/base/genetic-algorithm-using-deap-one-max-problem/">&lt;p&gt;링크[http://deap.readthedocs.io/en/master/examples/ga_onemax.html]&lt;/p&gt;
+
+&lt;h2 id=&quot;one-max-problem&quot;&gt;One Max Problem&lt;/h2&gt;
+
+&lt;h2 id=&quot;setting-things-up&quot;&gt;Setting Things Up&lt;/h2&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="base" /><category term="Python" /><category term="Genetic Algorithm" /><category term="Deap" /><summary type="html">링크[http://deap.readthedocs.io/en/master/examples/ga_onemax.html]</summary></entry><entry><title type="html">Genetic Algorithm using DEAP</title><link href="http://localhost:4000/base/genetic-algorithm-using-deap/" rel="alternate" type="text/html" title="Genetic Algorithm using DEAP" /><published>2018-04-09T19:10:00+09:00</published><updated>2018-04-09T19:10:00+09:00</updated><id>http://localhost:4000/base/genetic-algorithm-using-deap</id><content type="html" xml:base="http://localhost:4000/base/genetic-algorithm-using-deap/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;유연성 제공&lt;/p&gt;
+
+&lt;h2 id=&quot;types&quot;&gt;Types&lt;/h2&gt;
+&lt;p&gt;필요에 맞게 정의할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;creator&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;deap&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;creator&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;creator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'FitnessmMin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Fitness&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weights&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;creator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Individual'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fitness&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;creator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FitnessMin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;initialization&quot;&gt;Initialization&lt;/h2&gt;
+&lt;p&gt;타입 생성수 랜덤 값을 넣는 과정&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;base.Toolbox()&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;initilizer를 담고 있는 Container&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;deap&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;IND_SIZE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# indivisual size
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Toolbox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'attribute'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# random 
+# indivisual 생성
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'indivisual'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;initRepeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+				&lt;span class=&quot;n&quot;&gt;creator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Individual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IND_SIZE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+ &lt;span class=&quot;c1&quot;&gt;# population 생성
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'population'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;initRepeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+				&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;individual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;operators&quot;&gt;Operators&lt;/h2&gt;
+&lt;p&gt;initializer 와 비슷하나, tools 모듈에 이미 정의&lt;/p&gt;
+
+&lt;p&gt;원하는 것을 찾고 toolbox에 등록&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;evalutae&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indivisual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# 사용자 정의 Evalutation
+&lt;/span&gt;	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indivisual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# fitness 값은 iterable해야하기 때문에 tuple 반환
+&lt;/span&gt;    
+&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'mate'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cxTwoPoint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'mutate'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutGaussian&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sigma&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indpb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'select'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selTournament&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tournsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'evalutate'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;evaluate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;c1&quot;&gt;# 이름은 toolbox에 의해 재정의됨 (GA가 Operator이름에 의존적이지 않게)
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;algorithms&quot;&gt;Algorithms&lt;/h2&gt;
+&lt;p&gt;main function 을 작성&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;population&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Population
+&lt;/span&gt;   	&lt;span class=&quot;n&quot;&gt;CXPB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MUTPB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;NGEN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt; 
+    &lt;span class=&quot;c1&quot;&gt;# Crossover probability, Mutation probability, Number of Generation
+&lt;/span&gt;    
+	&lt;span class=&quot;c1&quot;&gt;# Evaluate the entire population
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;fitnesses&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;evaluate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;individual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fitness&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;zip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fitnesses&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    	&lt;span class=&quot;n&quot;&gt;individual&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fitness&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fitness&lt;/span&gt;
+       
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;generation&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NGEN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    	&lt;span class=&quot;c1&quot;&gt;# Select the next generation individuals
+&lt;/span&gt;       	&lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+	    &lt;span class=&quot;c1&quot;&gt;# Clone the selected individuals
+&lt;/span&gt;    	&lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
         
-          <description>&lt;h3 id=&quot;구조&quot;&gt;구조&lt;/h3&gt;
+        &lt;span class=&quot;c1&quot;&gt;#### map object =&amp;gt; list 
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+        
+       	&lt;span class=&quot;c1&quot;&gt;# Apply crossover and mutation on the offspring
+&lt;/span&gt;	    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child2&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;zip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[::&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]):&lt;/span&gt;
+    	    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rarndom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CXPB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        	    &lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;child1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            	&lt;span class=&quot;k&quot;&gt;del&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fitness&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;del&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chile2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fitness&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
+		
+    	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mutantt&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MUTPB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            	&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;del&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mutant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fitness&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
+              
+		&lt;span class=&quot;c1&quot;&gt;# Evaluate the individuals with an invalid fitness
+&lt;/span&gt;    	&lt;span class=&quot;n&quot;&gt;invaliIndividual&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indivisual&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indi&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fitness&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;valid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;fitnesses&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;toolbox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;evalutae&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;invalidIndividual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;zip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;invalidIndividual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fitnesses&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;indi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fitness&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;
+
+		&lt;span class=&quot;c1&quot;&gt;# The population is entirely replaced by the offspring
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;offspring&lt;/span&gt;
+        
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;algorithms&lt;/code&gt; 모듈사용 가능&lt;/p&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Python 2.7 / 3.4+ 가능&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SCOOP&lt;/code&gt; 다중연산&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Numpy&lt;/code&gt; CMA-ES&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;matplotlib&lt;/code&gt; 시각화&lt;/p&gt;
+
+&lt;p&gt;필요&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;설치&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;easy_intsall deap&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pip install deap&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or from source&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;python setup.py intsall&lt;/code&gt;&lt;/p&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="base" /><category term="Python" /><category term="DEAP" /><category term="Genetic Algorithm" /><summary type="html">Overview 유연성 제공</summary></entry><entry><title type="html">The Perceptron Algorithm with Python</title><link href="http://localhost:4000/base/the-perceptron-algorithm-with-python/" rel="alternate" type="text/html" title="The Perceptron Algorithm with Python" /><published>2018-03-27T18:05:00+09:00</published><updated>2018-03-27T18:05:00+09:00</updated><id>http://localhost:4000/base/the-perceptron-algorithm-with-python</id><content type="html" xml:base="http://localhost:4000/base/the-perceptron-algorithm-with-python/">&lt;p&gt;출처:
+[https://machinelearningmastery.com/implement-perceptron-algorithm-scratch-python/]
+[https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/]&lt;/p&gt;
+
+&lt;h1 id=&quot;perceptron-algorithm&quot;&gt;Perceptron Algorithm&lt;/h1&gt;
+&lt;p&gt;간단한 Artifical Neural Network&lt;/p&gt;
+
+&lt;h2 id=&quot;term&quot;&gt;Term&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Neuron&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Layer&lt;/strong&gt; Neuron 집합&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Perceptron&lt;/strong&gt; Layer집합, Neural Network&lt;/p&gt;
+
+&lt;h2 id=&quot;biological-neurons&quot;&gt;Biological Neurons&lt;/h2&gt;
+&lt;p&gt;Binary Inputs 받음
+하지만, Weight 된 만큼 각 Input들이 다루어 짐
+Weighted Signals 을 합쳐 Threshold를 넘으면 Fire
+이 OUput은 axon을 거쳐 다른 Nerons로 감&lt;/p&gt;
+
+&lt;h2 id=&quot;artifical-neurons&quot;&gt;Artifical Neurons&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/media/스크린샷 2018-03-28 오후 3.38.52.png&quot; alt=&quot;스크린샷 2018-03-28 오후 3.38.52.png&quot; /&gt;
+binary inputs이 들어오고 weights와 곱해져서 더해짐
+z 를 &lt;strong&gt;pre-activation&lt;/strong&gt; 이라함
+&lt;img src=&quot;/images/media/스크린샷 2018-03-28 오후 3.40.52.png&quot; alt=&quot;스크린샷 2018-03-28 오후 3.40.52.png&quot; /&gt;
+&lt;strong&gt;bias&lt;/strong&gt; = b (contant factor)
+&lt;img src=&quot;/images/media/스크린샷 2018-03-28 오후 3.40.26.png&quot; alt=&quot;스크린샷 2018-03-28 오후 3.40.26.png&quot; /&gt;
+편의상 bias와 weight vector를 합친다.&lt;/p&gt;
+
+&lt;p&gt;weighted sum을 구한후, &lt;strong&gt;activation function&lt;/strong&gt;을 적용한다. &lt;strong&gt;(step function)&lt;/strong&gt;
+&lt;img src=&quot;/images/media/스크린샷 2018-03-28 오후 3.44.17.png&quot; alt=&quot;스크린샷 2018-03-28 오후 3.44.17.png&quot; /&gt;
+하나의 Neuron에 적용된다. 
+1이 나온다는 것은 Biological Neuron에서 Fire을 의미한다.
+하나의 Neural Network에 적용하는 식은 다음과 같다.
+&lt;img src=&quot;/images/media/스크린샷 2018-03-28 오후 3.45.52.png&quot; alt=&quot;스크린샷 2018-03-28 오후 3.45.52.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;capabilities-and-limitations-of-perceptrons&quot;&gt;Capabilities and Limitations of Perceptrons&lt;/h2&gt;
+&lt;p&gt;Binary Input이기 때문에 Binary Classification에 사용 가능하다.
+즉, 오직 하나 혹 두 class에 속한다. 즉 logic gate 처럼 가능&lt;/p&gt;
+
+&lt;p&gt;한계점으로 선형적으로 분리된 경우에만 적용가능하다.
+선형적으로 분리된 경우: 두 class를 분리하는 한 선을 그을 수 있는 경우 =&amp;gt; &lt;strong&gt;Decision Boundary&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;logic gate의 경우 AND OR 은 가능하나, XOR은 불가능(single layer 형태의 경우)&lt;/p&gt;
+
+&lt;p&gt;이는 위의 Weighted Sum 식을 보면 알 수 있다. =&amp;gt; 선형식 처럼 생김 &lt;strong&gt;hyperplan&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;따라서, &lt;strong&gt;Hidden Layer / Multiple Layers&lt;/strong&gt;을 사용하면 XOR 문제를 해결 가능하다.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-train-perceptrons&quot;&gt;How to Train Perceptrons&lt;/h2&gt;
+&lt;p&gt;기대와 실제가 다를때 Weight Vector를 수정하여 조정한다.
+Weight Vector는 Perceptron 의 parameter이기 때문에 이 값을 계속해서 수정해서
+원하는 경과를 얻어내야 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/스크린샷 2018-03-28 오후 4.16.12.png&quot; alt=&quot;스크린샷 2018-03-28 오후 4.16.12.png&quot; /&gt;
+좋은 delta w를 정해야한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Error&lt;/strong&gt;의 경우 다음과 같이 정의할 수 있다.
+&lt;img src=&quot;/images/media/스크린샷 2018-03-28 오후 4.17.05.png&quot; alt=&quot;스크린샷 2018-03-28 오후 4.17.05.png&quot; /&gt;
+Error = Desired Output - Predicted Output
+&lt;img src=&quot;/images/media/스크린샷 2018-03-28 오후 4.18.24.png&quot; alt=&quot;스크린샷 2018-03-28 오후 4.18.24.png&quot; /&gt;
+새 Weight = 기존 Weight + Hyperparameter(Leraing Rate) * Error * x&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Epoch&lt;/strong&gt; one epoch는 Perceptron이 Training data를 한 번 훑었을 때를 말한다.&lt;/p&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="base" /><category term="Perceptron" /><category term="AI" /><category term="Python" /><summary type="html">출처: [https://machinelearningmastery.com/implement-perceptron-algorithm-scratch-python/] [https://pythonmachinelearning.pro/perceptrons-the-first-neural-networks/]</summary></entry><entry><title type="html">Lotto Number Detection using Python &amp;amp; OpenCV</title><link href="http://localhost:4000/base/lotto-number-detection-using-python-opencv/" rel="alternate" type="text/html" title="Lotto Number Detection using Python &amp; OpenCV" /><published>2018-03-27T18:04:00+09:00</published><updated>2018-03-27T18:04:00+09:00</updated><id>http://localhost:4000/base/lotto-number-detection-using-python-opencv</id><content type="html" xml:base="http://localhost:4000/base/lotto-number-detection-using-python-opencv/">&lt;h2 id=&quot;base&quot;&gt;Base&lt;/h2&gt;
+
+&lt;p&gt;OpenCV version: 3.4.1
+Python version: 3&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import numpy as np
+import cv2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;get-image&quot;&gt;Get image&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;img = cv2.imread('path-to-imgae')
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;show-image-in-window&quot;&gt;Show image in window&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cv2.namedWindow('image', cv.WINDOW_NORMAL)
+cv2.imshow('image', img)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;close-window&quot;&gt;Close window&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cv2.waitKey(0) # Wait for key input
+cv2.destroyAllWindows() # Close all windows
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;gaussian-smoothing&quot;&gt;Gaussian Smoothing&lt;/h2&gt;
+&lt;p&gt;A technique for reducing noise in an image by averaging each pixel with its surrounding pixels.&lt;/p&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="base" /><category term="Python" /><category term="OpenCV" /><summary type="html">Base</summary></entry><entry><title type="html">Direct Memory Access</title><link href="http://localhost:4000/base/direct-memory-access/" rel="alternate" type="text/html" title="Direct Memory Access" /><published>2017-11-18T16:04:00+09:00</published><updated>2017-11-18T16:04:00+09:00</updated><id>http://localhost:4000/base/direct-memory-access</id><content type="html" xml:base="http://localhost:4000/base/direct-memory-access/">&lt;p&gt;Cortex m3에서 DMA는 2개의 Controller에 의해 작동한다.
+이 두 Controller는 총 12 채널을 가진다.
+DMA1이 7개, DMA2가 5개를 관리한다.
+내부에는 DMA 요청을 우선순위대로 처리하는 관리자가 존재한다. 
+우선순위는 총 4단계로, very high, high, medium, low이다. 
+이는 소프트웨어적으로 설정하는 값이며, 만약 같은 우선순위의 요청일 경우 하드웨어적으로 미리 정해진 우선순위에 따라서 처리한다. 
+또한, 한 번 보내는 사이즈를 특정 시킬 수 있는데, 이는 byte, half word, word중 하나로 정할 수 있다. 따라서 사이즈에 맞게 시작과 도착 주소를 알맞게 설정해야 한다. 
+DMA과정 중 총 3 번의 이벤트가 발생한다. Half Transfer, Trasfer complete, Transfer Error가 그것이다. 이는 각 채널마다 인터럽트를 이용하여 표시한다. 
+Register에서 Memory 로의 이동 뿐만 아니라, Memory 에서 Memory로의 이동도 지원한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/DMA block diagram.png&quot; alt=&quot;DMA block diagram.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 실험에서 사용된 주요 부분을 마킹하여 표시하였다. 
+DMA가 일어날때, Controller에 의해서 요청자는 ACK을 DMA에 보낸다. ACK을 받은 Controller는 처리가 끝날때 까지 가지고 있다가 처리가 끝나는 즉시 ACK을 요청자에게 돌려보낸다. 즉, DMA는 세 가지 주요 기능으로 작동한다. 보낼 데이터를 DMA_CPARx 또는 DMA_CMARx에 설정되어있는 시작주소를 가리키게 한다. 
+보낸 데이터를 저장하는 것 또한 DMA_CPARx 또는 DMA_CMARx에 설정되어있는 시작 주소를 사용한다. 
+연속 수행을 위한 DMA_CNDTRx는 후위감소로 작동하며, 앞으로 일어나야 할 전달 횟수를 가지고 있다. 따라서, 사용할때 보낼 최종 횟수를 이 레지스터를 통해 설정하면 된다. 
+우선순위와 보내느 데이터 크기 설정은 DMA_CCRx 를 통해 가능하다. 
+그리고 설정을 다 마친 후 DMA_CCRx의 ENABLE 을 설정하면 즉시 동작하게 된다. 
+DMA 동작 모드에는 Circular mode가 있다. 이는 circular buffer와 연속되는 데이터 흐름을 보낼 때 사용한다. 예를 들어 ADC Scan 모드가 있다. 이 모드로 설정되면 보낼 데이터의 갯수는 자동으로 조정되고 계속해서 DMA 요청이 이루어진다. 
+전송 중 에러 발생 시 앞서 기술했던 것 처럼 Error flag를 interrupt를 통해서 나타내는데, 이때 해당 채널을 DISABLE한다. 그러고 나서 DMA_CCR에 있는 TEIE(Transfer Error Interrupt Enable) bit를 set한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/DMA_State_Flag_interrupt.png&quot; alt=&quot;DMA_State_Flag_interrupt.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;아래는 DMA의 채널과 H/W 우선순위를 나타내고 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/media/DMA1_request_mux.png&quot; alt=&quot;DMA1_request_mux.png&quot; /&gt;
+&lt;img src=&quot;/images/media/DMA1_requeset_by_channel.png&quot; alt=&quot;DMA1_requeset_by_channel.png&quot; /&gt;
+&lt;img src=&quot;/images/media/DMA2_request_byChannel.png&quot; alt=&quot;DMA2_request_byChannel.png&quot; /&gt;
+&lt;img src=&quot;/images/media/DMA2_request_mux.png&quot; alt=&quot;DMA2_request_mux.png&quot; /&gt;&lt;/p&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="base" /><category term="Cortext M3" /><summary type="html">Cortex m3에서 DMA는 2개의 Controller에 의해 작동한다. 이 두 Controller는 총 12 채널을 가진다. DMA1이 7개, DMA2가 5개를 관리한다. 내부에는 DMA 요청을 우선순위대로 처리하는 관리자가 존재한다. 우선순위는 총 4단계로, very high, high, medium, low이다. 이는 소프트웨어적으로 설정하는 값이며, 만약 같은 우선순위의 요청일 경우 하드웨어적으로 미리 정해진 우선순위에 따라서 처리한다. 또한, 한 번 보내는 사이즈를 특정 시킬 수 있는데, 이는 byte, half word, word중 하나로 정할 수 있다. 따라서 사이즈에 맞게 시작과 도착 주소를 알맞게 설정해야 한다. DMA과정 중 총 3 번의 이벤트가 발생한다. Half Transfer, Trasfer complete, Transfer Error가 그것이다. 이는 각 채널마다 인터럽트를 이용하여 표시한다. Register에서 Memory 로의 이동 뿐만 아니라, Memory 에서 Memory로의 이동도 지원한다.</summary></entry><entry><title type="html">App Development with Swift) QuestionBot2 구성 파헤치기</title><link href="http://localhost:4000/app-development-with-swift-questionbot2/" rel="alternate" type="text/html" title="App Development with Swift) QuestionBot2 구성 파헤치기" /><published>2017-02-03T16:14:00+09:00</published><updated>2017-02-03T16:14:00+09:00</updated><id>http://localhost:4000/app-development-with-swift-questionbot2</id><content type="html" xml:base="http://localhost:4000/app-development-with-swift-questionbot2/">&lt;h2 id=&quot;ibooks---app-development-with-swift&quot;&gt;iBooks - “App Development with Swift”&lt;/h2&gt;
+&lt;p&gt;Apple에서 제작한 책으로, iBooks Store에서 다운받을 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;questionbot2&quot;&gt;QuestionBot2&lt;/h2&gt;
+&lt;p&gt;책의 예시 프로젝트로, &lt;a href=&quot;https://developer.apple.com/sample-code/swift/downloads/app-dev-curriculum.zip&quot;&gt;여기서&lt;/a&gt; 책의 전체 예시를 다운받을 수 있다.&lt;/p&gt;
+
+&lt;h3 id=&quot;ui-구성&quot;&gt;UI 구성&lt;/h3&gt;
+&lt;h4 id=&quot;mainstroyboard&quot;&gt;Main.stroyboard&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;**Navigation Controller&lt;/strong&gt;&lt;strong&gt;를 시작으로, **&lt;/strong&gt;TableView Controller&lt;strong&gt;**를 담고 있다.
+**&lt;/strong&gt;TableView&lt;strong&gt;**와 **&lt;/strong&gt;CustomCell&lt;em&gt;**&lt;/em&gt;을 담고 있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;launchscreenstoryboard&quot;&gt;LaunchScreen.storyboard&lt;/h4&gt;
+&lt;p&gt;엽을 처음 켰을 때 보여줄 화면 스크린으로, 현재는 비워져 있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;thinkingcellswift&quot;&gt;ThinkingCell.swift&lt;/h4&gt;
+&lt;p&gt;TableView의 CustomCell로, QuestionBot이 생각중임을 나타내는 Cell이다.&lt;/p&gt;
+
+&lt;h4 id=&quot;conversationcellswift&quot;&gt;ConversationCell.swift&lt;/h4&gt;
+&lt;p&gt;QuestionBot의 대답을 표시할 CustomCell이다.&lt;/p&gt;
+
+&lt;h4 id=&quot;askcellswift&quot;&gt;AskCell.swift&lt;/h4&gt;
+&lt;p&gt;사용자 질문을 적을 CustomCell이다.&lt;/p&gt;
+
+&lt;h4 id=&quot;assetsxcassets&quot;&gt;Assets.xcassets&lt;/h4&gt;
+&lt;p&gt;이 앱에서 사용중인 이미지들을 관리한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;controller-구성&quot;&gt;Controller 구성&lt;/h3&gt;
+&lt;h4 id=&quot;converstaionviewcontrollerswift&quot;&gt;ConverstaionViewController.swift&lt;/h4&gt;
+&lt;p&gt;Main.stroyboard의 TableView를 담고있는 Controller이다.
+사용자의 질문과 QuestionBot의 대답을 상황에 맞게 표시해주는 역할을 한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;model-구성&quot;&gt;Model 구성&lt;/h3&gt;
+&lt;h4 id=&quot;messageswift&quot;&gt;Message.swift&lt;/h4&gt;
+&lt;p&gt;다른 swift 파일에서 사용할 (enum)&lt;strong&gt;**MessageType&lt;/strong&gt;&lt;strong&gt;과 (sturct)&lt;/strong&gt;&lt;strong&gt;Message&lt;/strong&gt;**를 정의하고 있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;questionanswererswift&quot;&gt;QuestionAnswerer.swift&lt;/h4&gt;
+&lt;p&gt;유저로부터 질문을 받았을 때, 질문에 해당하는 답변을 처리하는 (struct)&lt;strong&gt;**QeustionAnswerer&lt;/strong&gt;&lt;strong&gt;를 정의한다.
+이 struct는 한 개의 (method)&lt;/strong&gt;&lt;strong&gt;responseTo(question:)&lt;/strong&gt;**을 정의한다.
+이 메소드는,&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;질문의 첫 단어가 “hello” 일 때, “why, hello there!”&lt;/li&gt;
+  &lt;li&gt;질문이 “where are the cookies?” 일 때, “In the cookie jar!”&lt;/li&gt;
+  &lt;li&gt;질문의 첫 단어가 “where” 일 때, “To the North!”&lt;/li&gt;
+  &lt;li&gt;위 세 가지 상황에 맞지않는 질문일 땐, 질문 길이를 mod 3하여 나오는 값으로 대답의 종류르 3가지로 구분하여 대답한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;conversationdatasourceswift&quot;&gt;ConversationDataSource.swift&lt;/h4&gt;
+&lt;p&gt;(class)&lt;strong&gt;**ConversationDataSource&lt;/strong&gt;**를 정의한다.
+메시지의 총 갯수와, 질문과 답을 add하는 등의 메소드를 제공하고있으며,
+현재 상태에서는 큰 역할을 하지 않는다.&lt;/p&gt;
+
+&lt;h3 id=&quot;앱-동작-그림&quot;&gt;앱 동작 그림&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/media/questionBot2_working_diagram.png&quot; alt=&quot;questionBot2_working_diagram.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;conversationviewcontroller을-자세히-알아보자&quot;&gt;ConversationViewController을 자세히 알아보자&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;ConversationViewController&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UITableViewController&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;**TableView&lt;/strong&gt;&lt;strong&gt;를 컨트롤 하기 위해서, **&lt;/strong&gt;UITableViewController&lt;em&gt;**&lt;/em&gt;를 상속받았다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;questionAnswerer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;QuestionAnswerer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Struct&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;conversationSource&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;ConversationDataSource&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Class&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;**questionAnwserer&lt;/strong&gt;&lt;strong&gt;는 질문에 답하기 위한 method를 가지고 있고, **&lt;/strong&gt;conversationSource&lt;em&gt;**&lt;/em&gt;는 대화의 내용들을 저장하기위해 생성한다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;kd&quot;&gt;fileprivate&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;respondToQuestion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;questionText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;작성중 …&lt;/p&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="Swift" /><summary type="html">iBooks - “App Development with Swift” Apple에서 제작한 책으로, iBooks Store에서 다운받을 수 있다.</summary></entry><entry><title type="html">Delegation</title><link href="http://localhost:4000/delegation/" rel="alternate" type="text/html" title="Delegation" /><published>2017-02-02T22:44:00+09:00</published><updated>2017-02-02T22:44:00+09:00</updated><id>http://localhost:4000/delegation</id><content type="html" xml:base="http://localhost:4000/delegation/">&lt;h2 id=&quot;cocoa-core-competencies-delegation&quot;&gt;Cocoa Core Competencies) Delegation&lt;/h2&gt;
+&lt;p&gt;참고자료: &lt;a href=&quot;https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Delegation.html#//apple_ref/doc/uid/TP40008195-CH14-SW2&quot;&gt;Apple&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;정의&quot;&gt;정의&lt;/h3&gt;
+&lt;p&gt;Delegation은 object가 작동하고, 상호작용하는 간단하고 강력한 pattern 이다.
+delegating object는 다른 object의 참조를 유지하고, 적절한 시간에 해당 object에 메시지를 보낸다.
+이 메시지는 delegating object가 처리하거나, 처리하려고하는 event를 delegate에게 알려준다.
+delegation은 그에 대한 반응으로 형태나, 상태를 업데이트하게 된다.
+delegation의 주된 가치는 하나의 중심 object에서 다른 여러 objects의 동작을 customize할 수 있다는 것이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;delegation과-cocoa-frameworks&quot;&gt;Delegation과 Cocoa Frameworks&lt;/h3&gt;
+&lt;p&gt;delegating object는 framework object이고, delegate는 custom controller의 object이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;delegating-object의-예시-nswindow&quot;&gt;delegating object의 예시: NSWindow&lt;/h3&gt;
+&lt;p&gt;Appkit framework의 NSWindow는 &lt;strong&gt;windowShouldClose:&lt;/strong&gt; protocol을 지닌다.
+만약, 닫기 버튼을 눌렀을 때, window object는 delegate에 &lt;strong&gt;windowShouldClose:&lt;/strong&gt;를 전달하고, Boolean 값을 받아온다.
+그에 따라서 window object가 처리되는것이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;delegation-and-notifications&quot;&gt;Delegation and Notifications&lt;/h3&gt;
+&lt;p&gt;The delegate of most Cocoa framework classes is automatically registered as an observer of notifications posted by the delegating object. The delegate need only implement a notification method declared by the framework class to receive a particular notification message. Following the example above, a window object posts an NSWindowWillCloseNotification to observers but sends a windowShouldClose: message to its delegate.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-source&quot;&gt;Data Source&lt;/h3&gt;
+&lt;p&gt;A data source is almost identical to a delegate. The difference is in the relationship with the delegating object. Instead of being delegated control of the user interface, a data source is delegated control of data. The delegating object, typically a view object such as a table view, holds a reference to its data source and occasionally asks it for the data it should display. A data source, like a delegate, must adopt a protocol and implement at minimum the required methods of that protocol. Data sources are responsible for managing the memory of the model objects they give to the delegating view.&lt;/p&gt;
+
+&lt;p&gt;작성중 …&lt;/p&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="Swift" /><summary type="html">Cocoa Core Competencies) Delegation 참고자료: Apple</summary></entry><entry><title type="html">Swift에서 캘린더 다루기</title><link href="http://localhost:4000/info/swift/" rel="alternate" type="text/html" title="Swift에서 캘린더 다루기" /><published>2017-02-02T20:49:00+09:00</published><updated>2017-02-02T20:49:00+09:00</updated><id>http://localhost:4000/info/swift</id><content type="html" xml:base="http://localhost:4000/info/swift/">&lt;h3 id=&quot;구조&quot;&gt;구조&lt;/h3&gt;
 &lt;blockquote&gt;
   &lt;p&gt;EventKit&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -47,200 +726,35 @@ event를 각각 추가하거나 삭제할때마다 불러오면, 성능에 악�
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// EKEventStore&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;events&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matching&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;predicate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;NSPredicate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;EKEvent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- predicate:
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- predicate:
 검색을 위한 predicate
 predicateForEvents(withStart:end:calendars:) 메소드를 사용해서 만들어야 한다.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// EKEventStore&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;predicateForEvents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;withStart&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;startDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;endDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;calendars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;EKCalendar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]?)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;NSPredicate&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- return
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- return
 predicate을 만족하는 모든 event를 EKEvent array형태로 리턴
     
 - Synchronous
 동기적으로 작동하기 때문에, 한 개의 event가 등록되고 나서
 다음 event가 등록되어야 한다.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;unique-identifiers-사용&quot;&gt;Unique Identifiers 사용&lt;/h4&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// EKEventStore&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;withIdentifier&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;identifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;EKEvent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- return
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- return
 identifier를 만족하는 첫 번째 발견된 event를 리턴
     
 - identifier
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// EKEvent&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;eventIdentifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;위의 속성을 event에서 가져올 수 있다.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        
-        <pubDate>Thu, 02 Feb 2017 20:49:00 +0900</pubDate>
-        <link>http://localhost:4000/blog/2017/02/02/swift/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/02/02/swift/</guid>
-      </item>
-    
-      <item>
-        <title>UITableView</title>
-        
-          <description>&lt;h2 id=&quot;cocoatouchswift-uitableview&quot;&gt;CocoaTouch/Swift) UITableView&lt;/h2&gt;
-
-&lt;h3 id=&quot;기본적인-uitableview-다루는-방법&quot;&gt;기본적인 UITableView 다루는 방법&lt;/h3&gt;
-&lt;h3 id=&quot;1-viewcontroller-상속받기&quot;&gt;1. ViewController 상속받기&lt;/h3&gt;
-&lt;p&gt;사용중인 viewController에 UITableViewDelegate와, UITableViewDataSource를 상속 받는다.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-override할-메소드를-적어준다&quot;&gt;2. override할 메소드를 적어준다.&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;nf&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;numberOfRowsInSection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// 보여줄 아이템의 개수를 리턴하는 메소드&lt;/span&gt;
-        
-&lt;span class=&quot;nf&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;cellForRowAtIndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// 각 Row마다 보여줄 Cell 을 만들어 리턴하는 메소드&lt;/span&gt;
-    
-&lt;span class=&quot;nf&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;didSelectRowAtIndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// Row가 select되면 불려질 메소드&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;3-outlet-연결하기&quot;&gt;3. Outlet 연결하기&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;tableView
-DataSource
-Delegate&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;DataSource와 Delegate는 tableView를 우클릭하면 나오는 화면에서 확인할 수 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-viewdidload-수정하기&quot;&gt;4. viewDidLoad() 수정하기&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;nf&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cellClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// cell 에 사용할 class 를 identifier를 이용해서 정해준다.&lt;/span&gt;
-    
-&lt;span class=&quot;c1&quot;&gt;// ex)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UITableViewCell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;forCellReuseIdentifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;5-items-collection-을-만든다&quot;&gt;5. items collection 을 만든다.&lt;/h3&gt;
-
-&lt;h3 id=&quot;6-2의-메소드-수정하기&quot;&gt;6. 2의 메소드 수정하기&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;nf&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numberOfRowsInSection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-   	&lt;span class=&quot;c1&quot;&gt;// 5에서 만들어진 item 개수를 리턴하게 한다.&lt;/span&gt;
-        
-&lt;span class=&quot;nf&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;cellForRowAtIndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// cell 을 만든다    &lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// ex)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;cell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UITableViewCell&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dequeueReusableCellWithIdentifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UITableViewCell&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// cell 을 만들고&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;cell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;textLabel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indexPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// cell textLabel 을 설정해서&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cell&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 리턴&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    
-&lt;span class=&quot;nf&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;didSelectRowAtIndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt; 
-   	&lt;span class=&quot;c1&quot;&gt;// cell 이 선택되었을때 하고싶은 동작을 여기에 구현한다&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;custom-cell-만들어-적용하기&quot;&gt;Custom Cell 만들어 적용하기&lt;/h3&gt;
-
-&lt;h3 id=&quot;1-uitablecell-을-상속받는-class를-만든다&quot;&gt;1. UITableCell 을 상속받는 class를 만든다.&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;CustomCell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UITableCell&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;2-storyboard에서-tablecell을-추가한다&quot;&gt;2. storyBoard에서 tableCell을 추가한다&lt;/h3&gt;
-&lt;p&gt;storyBoard에서 custom cell 을 사용하고 싶은 tableView 내부에 tableViewCell 을 추가하여, 원하는 디자인으로 수정한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-디자인한-cell-과-customcell과-연결한다&quot;&gt;3. 디자인한 Cell 과 CustomCell과 연결한다.&lt;/h3&gt;
-&lt;p&gt;CustomCell class 내부에 cell 마다 다르게 하고 싶은것을 연결한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-viewcontroller에서-메소드를-수정한다&quot;&gt;4. ViewController에서 메소드를 수정한다.&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;	
-&lt;span class=&quot;nf&quot;&gt;viewDidLoad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// register 클래스를 바꾸어 준다.&lt;/span&gt;
-        
-&lt;span class=&quot;nf&quot;&gt;tableView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;cellForRowAtIndexPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// CustomCell 앞의 방법과 비슷하게 만들어 주고&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// cell에 연결된 값을 수정하여 리턴시켜준다.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        
-        <pubDate>Thu, 02 Feb 2017 17:29:00 +0900</pubDate>
-        <link>http://localhost:4000/blog/2017/02/02/uitableview/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/02/02/uitableview/</guid>
-      </item>
-    
-      <item>
-        <title>UIToolbar</title>
-        
-          <description>&lt;h2 id=&quot;cocoa-touch---swift-uitoolbar&quot;&gt;Cocoa Touch - Swift) UIToolbar&lt;/h2&gt;
-
-&lt;h3 id=&quot;toolbar-item-만들기&quot;&gt;toolbar item 만들기&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIButtonItems&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;toolbar-item-설정&quot;&gt;toolbar item 설정&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;nf&quot;&gt;setItems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;animated&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;customizing-하기&quot;&gt;Customizing 하기&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;기본적으로 appearance proxy에 setter 메세지를 전달해야 한다.
-또한, 디폴트 화면 방향을 정해야 한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;configuring-toolbar-items&quot;&gt;Configuring Toolbar Items&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UIBarButtonItems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]?&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// Toolbar에 표시될 아이템들&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;setItems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UIBarButtonItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]?,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;animated&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// Toolbar에 표시될 아이템을 정한다(애니메이션 지정가능)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;customizing-appearance&quot;&gt;Customizing Appearance&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;barStyle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIBarStyle&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// 모습을 나타낼 Toolbar Style&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;barTintColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// toolbar background 에 적용할 색&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tintColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIColor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// bar button 아이템들에 적용할 색&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;isTranslucent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Bool&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// toolbar를 반투명으로 할 것인가&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;backgroundImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;forToolbarPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIBarPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;barMetrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIBarMetrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// background로 사용할 image 리턴&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;setBackgroundImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UIImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;forToolbarPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIBarPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;barMetrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIBarMetrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// background에 image 적용&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;shadowImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;forToolbarPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIBarPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// toolbar 그림자에 사용할 image 리턴&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;setShadowImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UIImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;forToolbarPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIBarPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// toolbar 그림자에 사용할 image 적용&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;managing-the-delegate&quot;&gt;Managing the Delegate&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;delegate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UIToolbarDelegate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// The toolbar’s delegate object.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;참고사항&quot;&gt;참고사항&lt;/h3&gt;
-&lt;p&gt;Radio Button 형태로 디자인하고 싶다면, UITabBar를 활용하자!&lt;/p&gt;
-</description>
-        
-        <pubDate>Thu, 02 Feb 2017 16:58:00 +0900</pubDate>
-        <link>http://localhost:4000/blog/2017/02/02/uitoolbar/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/02/02/uitoolbar/</guid>
-      </item>
-    
-  </channel>
-</rss>
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;위의 속성을 event에서 가져올 수 있다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Youngho-Jo</name><email>zeroho.jo@gmail.com</email></author><category term="info" /><category term="Swift" /><summary type="html">구조 EventKit</summary></entry></feed>

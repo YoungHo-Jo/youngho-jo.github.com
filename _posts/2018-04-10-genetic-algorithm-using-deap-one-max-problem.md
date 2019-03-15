@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 published: true
 date: '2018-04-10 13:16 +0900'
 modified: '2018-04-10 13:16 +0900'

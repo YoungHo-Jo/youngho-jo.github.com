@@ -1,401 +1,517 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<!--  
-====================================================
-Homepage: http://localhost:4000
-Credits: http://localhost:4000/disclosure
-====================================================
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.15.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-<!-- link href="http://gmpg.org/xfn/11" rel="profile" -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
 
-<!-- Enable responsiveness on mobile devices-->
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<!-- begin _includes/seo.html --><title>ZeroHo's blog</title>
+<meta name="description" content="Youngho’s dev blog">
 
-<title>
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko">
+<meta property="og:site_name" content="ZeroHo's blog">
+<meta property="og:title" content="ZeroHo’s blog">
+<meta property="og:url" content="http://localhost:4000/">
+
+
+
+
+
+
+
+
+
+
+
+
   
-    Blog · ZeroH
+
   
-</title>
-
-<!-- Search Engine Optimization -->
-<meta name="description" content="Blogging on ....">
-
-
-
-
-
-
-<meta name="twitter:title" content="Blog">
-<meta name="twitter:description" content="Blogging on ....">
-<meta name="twitter:creator" content="@">
-<!-- End Twitter Cards -->
-
-<!-- Open Graph -->
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Blog">
-<meta property="og:description" content="Blogging on ....">
-<meta property="og:url" content="http://localhost:4000/index.html">
-<meta property="og:site_name" content="ZeroH">
-
-<meta property="og:image" content="sitelogo.png">
-
-<meta property="fb:app_id" content="1003108156422006">
-<meta property="fb:admins" content="817465054">
-
-<!-- Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400%7CTangerine%7CInconsolata">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/public/css/iconmoon.css">
-
-<!-- CSS -->
-<link rel="stylesheet" href="/public/css/style.min.css">
-
-<!-- Add-on CSS to override system-wide defaults -->
-<link rel="stylesheet" href="/public/css/addon.css">
-
-<!-- CSS override per page -->
-
-
-<!-- Java scripts -->
-<!-- <script src="/public/js/jquery.min.js"></script> -->
-
-<!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
-<!-- 32x32 -->
-<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
-<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/icons/apple-touch-icon-precomposed.png">
-<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/icons/apple-touch-icon-72x72-precomposed.png">
-<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/icons/apple-touch-icon-114x114-precomposed.png">
-<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/icons/apple-touch-icon-144x144-precomposed.png">
-<!-- 180x180 (precomposed) for iPhone 6 -->
-<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/images/icons/apple-touch-icon-180x180.png">
-<!-- 192x192 (precomposed) for Android -->
-<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:4000/images/icons/android-icon-192x192.png">
 
 
 <link rel="canonical" href="http://localhost:4000/">
 
 
-<!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/feed.xml">
+
+  <link rel="next" href="http://localhost:4000/page2/">
 
 
 
-</head>
 
 
-<body>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "ZeroHo",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
 
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-<!--   <div class="sidebar-item">
-    <p>ZeroH's blog...</p>
-  </div> -->
 
-  <nav class="sidebar-nav">
-    <!-- a class="sidebar-nav-item" href="/">Home</a-->
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="ZeroHo's blog Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--home">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
 
     
 
-    
-
-    
-            
-                    <a class="sidebar-nav-item" href="http://localhost:4000/"><i class="iconside iconm-home"></i> Home</a>
-                
-    
-            
-                    <a class="sidebar-nav-item" href="http://localhost:4000/blog/"><i class="iconside iconm-quill"></i> Blog</a>
-                
-    
-            
-                    <a class="sidebar-nav-item" href="http://localhost:4000/tags/"><i class="fa fa-tags"></i> Tags</a>
-                
-    
-            
-                    <a class="sidebar-nav-item" href="http://localhost:4000/archive/"><i class="fa fa-archive"></i> Archive</a>
-                
-         
-
-    
-  </nav>
-
-<hr class="gh">
-
-
-<div id="searchbox2" style="margin:0 auto; display: table;">
-<div class="searchcont2">
-    <!-- span class="searchicon2"><i class="fa fa-search fa-2x"></i></span -->
-    <form role="search" method="get" action="http://localhost:4000/cse/">
-        <input id="searchString2" name="searchString2" placeholder=" Search" type="text">
-    </form>
-</div>
-</div>
-
-
-</div>
-
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">ZeroH</a>
-            <!-- <small></small> -->
-            <div class="headicons">
-              <small><a href="http://localhost:4000/blog" rel="me" title="Blog"><i class="iconm iconm-quill"></i></a></small>
-            </div>           
-          </h3>
-        </div>
-      </div>
-
-      <div class="container content">
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
         
-<div class="posts">
-  
-</div>
-
-<div class="posts">
-  
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="http://localhost:4000/blog/2017/02/02/swift/">
-        Swift에서 캘린더 다루기
-      </a>
-    </h1>
-
-  <span class="post-date indexpg" itemprop="dateModified" content="2017-02-02"><i class="fa fa-edit" title="Last updated"> 02 Feb 2017</i></span>
-
- <h3 id="구조">구조</h3>
-<blockquote>
-  EventKit
-</blockquote>
-
-swift에서 캘린더를 활용하기 위해서는, <strong>EventKit</strong>을 import해야한다.
-
-<figure class="highlight"><pre><code class="language-swfit" data-lang="swfit">import EventKit</code></pre></figure>
-
-<blockquote>
-  EKEventStore
-</blockquote>
-
-event의 fetch, create, edit, delete 작업은 <strong>EKEventStore</strong>를 선언하여 유저 캘런더 DB에 접근한다.
-
-<blockquote>
-  EKEvent
-</blockquote>
-
-캘린더 DB에 등록되는 실제 event이다.
-
-<h3 id="주의사항">주의사항</h3>
-<strong>EKEventStore</strong>을 init 할때는 큰 시간이 걸리기 때문에,
-event를 각각 추가하거나 삭제할때마다 불러오면, 성능에 악영향을 끼친다.
-따라서, 앱 실행시 한 번만 init하고 죽지않게 살려둔다.
-
-<h3 id="event를-불러오는-두-가지-방법">Event를 불러오는 두 가지 방법</h3>
-
-<h4 id="predicates-사용">Predicates 사용</h4>
-
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="c1">// EKEventStore</span>
-<span class="kd">func</span> <span class="nf">events</span><span class="p">(</span><span class="n">matching</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">NSPredicate</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">EKEvent</span><span class="p">]</span></code></pre></figure>
-
-<div class="highlighter-rouge">
-<pre class="highlight"><code>- predicate:
-검색을 위한 predicate
-predicateForEvents(withStart:end:calendars:) 메소드를 사용해서 만들어야 한다.
-</code></pre>
-</div>
-
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="c1">// EKEventStore</span>
-<span class="kd">func</span> <span class="nf">predicateForEvents</span><span class="p">(</span><span class="n">withStart</span> <span class="nv">startDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="n">end</span> <span class="nv">endDate</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="nv">calendars</span><span class="p">:</span> <span class="p">[</span><span class="kt">EKCalendar</span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt">NSPredicate</span></code></pre></figure>
-
-<div class="highlighter-rouge">
-<pre class="highlight"><code>- return
-predicate을 만족하는 모든 event를 EKEvent array형태로 리턴
-    
-- Synchronous
-동기적으로 작동하기 때문에, 한 개의 event가 등록되고 나서
-다음 event가 등록되어야 한다.
-</code></pre>
-</div>
-
-<h4 id="unique-identifiers-사용">Unique Identifiers 사용</h4>
-
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="c1">// EKEventStore</span>
-<span class="kd">func</span> <span class="nf">event</span><span class="p">(</span><span class="n">withIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">EKEvent</span><span class="p">?</span></code></pre></figure>
-
-<div class="highlighter-rouge">
-<pre class="highlight"><code>- return
-identifier를 만족하는 첫 번째 발견된 event를 리턴
-    
-- identifier
-</code></pre>
-</div>
-
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="c1">// EKEvent</span>
-<span class="k">var</span> <span class="nv">eventIdentifier</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre></figure>
-
-<div class="highlighter-rouge">
-<pre class="highlight"><code>위의 속성을 event에서 가져올 수 있다.
-</code></pre>
-</div>
- <a href="http://localhost:4000/blog/2017/02/02/swift/" title="Read more"><strong>Read more...</strong></a>
+        <a class="site-title" href="/">ZeroHo's blog</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/year-archive/" >Archive</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/" >tag</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/" >Category</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
   </div>
-  <hr class="transp">
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
   
+  <div class="sidebar sticky">
   
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="http://localhost:4000/blog/2017/02/02/uitableview/">
-        UITableView
-      </a>
-    </h1>
 
-  <span class="post-date indexpg" itemprop="dateModified" content="2017-02-02"><i class="fa fa-edit" title="Last updated"> 02 Feb 2017</i></span>
-
- <h2 id="cocoatouchswift-uitableview">CocoaTouch/Swift) UITableView</h2>
-
-<h3 id="기본적인-uitableview-다루는-방법">기본적인 UITableView 다루는 방법</h3>
-<h3 id="1-viewcontroller-상속받기">1. ViewController 상속받기</h3>
-사용중인 viewController에 UITableViewDelegate와, UITableViewDataSource를 상속 받는다.
-
-<h3 id="2-override할-메소드를-적어준다">2. override할 메소드를 적어준다.</h3>
-
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">numberOfRowsInSection</span><span class="p">:)</span>
-	<span class="c1">// 보여줄 아이템의 개수를 리턴하는 메소드</span>
-        
-<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">cellForRowAtIndexPath</span><span class="p">:)</span>
-	<span class="c1">// 각 Row마다 보여줄 Cell 을 만들어 리턴하는 메소드</span>
+  <div class="author__content">
     
-<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">didSelectRowAtIndexPath</span><span class="p">:)</span>
-	<span class="c1">// Row가 select되면 불려질 메소드</span></code></pre></figure>
-
-<h3 id="3-outlet-연결하기">3. Outlet 연결하기</h3>
-<blockquote>
-  tableView
-DataSource
-Delegate
-</blockquote>
-
-DataSource와 Delegate는 tableView를 우클릭하면 나오는 화면에서 확인할 수 있다.
-
-<h3 id="4-viewdidload-수정하기">4. viewDidLoad() 수정하기</h3>
-
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="nf">register</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span><span class="n">cellClass</span><span class="p">)</span>
-    <span class="c1">// cell 에 사용할 class 를 identifier를 이용해서 정해준다.</span>
+      <h3 class="author__name" itemprop="name">Youngho-Jo</h3>
     
-<span class="c1">// ex)</span>
-<span class="k">self</span><span class="o">.</span><span class="n">tableView</span><span class="o">.</span><span class="nf">register</span><span class="p">(</span><span class="kt">UITableViewCell</span><span class="o">.</span><span class="k">self</span><span class="p">,</span> <span class="nv">forCellReuseIdentifier</span><span class="p">:</span> <span class="s">"cell"</span><span class="p">)</span></code></pre></figure>
-
-<h3 id="5-items-collection-을-만든다">5. items collection 을 만든다.</h3>
-
-<h3 id="6-2의-메소드-수정하기">6. 2의 메소드 수정하기</h3>
-
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="n">numberOfRowsInSection</span><span class="p">)</span>
-   	<span class="c1">// 5에서 만들어진 item 개수를 리턴하게 한다.</span>
-        
-<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">cellForRowAtIndexPath</span><span class="p">:)</span>
-	<span class="c1">// cell 을 만든다    </span>
-<span class="c1">// ex)</span>
-<span class="p">{</span>
-  <span class="k">var</span> <span class="nv">cell</span><span class="p">:</span><span class="kt">UITableViewCell</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">tableView</span><span class="o">.</span><span class="nf">dequeueReusableCellWithIdentifier</span><span class="p">(</span><span class="s">"cell"</span><span class="p">)</span> <span class="k">as</span> <span class="kt">UITableViewCell</span> <span class="c1">// cell 을 만들고</span>
-  <span class="n">cell</span><span class="o">.</span><span class="n">textLabel</span><span class="p">?</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">items</span><span class="p">[</span><span class="n">indexPath</span><span class="o">.</span><span class="n">row</span><span class="p">]</span> <span class="c1">// cell textLabel 을 설정해서</span>
-  <span class="k">return</span> <span class="n">cell</span> <span class="c1">// 리턴</span>
-<span class="p">}</span>
     
-<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="nv">didSelectRowAtIndexPath</span><span class="p">:)</span> 
-   	<span class="c1">// cell 이 선택되었을때 하고싶은 동작을 여기에 구현한다</span></code></pre></figure>
-
-<h3 id="custom-cell-만들어-적용하기">Custom Cell 만들어 적용하기</h3>
-
-<h3 id="1-uitablecell-을-상속받는-class를-만든다">1. UITableCell 을 상속받는 class를 만든다.</h3>
-
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="kd">class</span> <span class="kt">CustomCell</span><span class="p">:</span> <span class="kt">UITableCell</span> <span class="p">{}</span></code></pre></figure>
-
-<h3 id="2-storyboard에서-tablecell을-추가한다">2. storyBoard에서 tableCell을 추가한다</h3>
-storyBoard에서 custom cell 을 사용하고 싶은 tableView 내부에 tableViewCell 을 추가하여, 원하는 디자인으로 수정한다.
-
-<h3 id="3-디자인한-cell-과-customcell과-연결한다">3. 디자인한 Cell 과 CustomCell과 연결한다.</h3>
-CustomCell class 내부에 cell 마다 다르게 하고 싶은것을 연결한다.
-
-<h3 id="4-viewcontroller에서-메소드를-수정한다">4. ViewController에서 메소드를 수정한다.</h3>
-
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift">	
-<span class="nf">viewDidLoad</span><span class="p">()</span>
-	<span class="c1">// register 클래스를 바꾸어 준다.</span>
-        
-<span class="nf">tableView</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span><span class="nv">cellForRowAtIndexPath</span><span class="p">:)</span>
-	<span class="c1">// CustomCell 앞의 방법과 비슷하게 만들어 주고</span>
-	<span class="c1">// cell에 연결된 값을 수정하여 리턴시켜준다.</span></code></pre></figure>
-
- <a href="http://localhost:4000/blog/2017/02/02/uitableview/" title="Read more"><strong>Read more...</strong></a>
+      <p class="author__bio" itemprop="description">
+        Nothing is Impossible
+      </p>
+    
   </div>
-  
-  
-  
-</div>
-<h3 class="post-title">
-<div class="pagination" style="margin: 0.5rem;">
-    <a class="pagination-item older" href="http://localhost:4000/blog"><i class="fa fa-edit"> Blog</i></a>
-    <a class="pagination-item newer" href="http://localhost:4000/tags"><i class="fa fa-tags"> Tags</i></a>
-</div>
-</h3>
 
-                    <div class="custom-footer" style="display: block;">
-            <div class="footer-social-icons">
-            </div>
-            <h6 class="text-footer">
-<a rel="license" href="http://localhost:4000/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure" class="social-icon"><i class="fa fa-creative-commons"></i></a> <a rel="license" href="http://localhost:4000/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure">2017-2017</a>: <a href="http://localhost:4000" title="Home">youngho-jo.github.com</a>
-            </h6>
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Korea, republic of</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:zeroho.jo@gmail.com">
+            <meta itemprop="email" content="zeroho.jo@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> 이메일
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
 </div>
 
-      </div>
+  
+  </div>
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title"></h1>
+    
+    
+
+<h3 class="archive__subtitle">최근 포스트</h3>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/base/java-vs-nodejs/" rel="permalink">JAVA vs. NodeJS…
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  최대 1 분 소요
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">많은 큰 기업들이 아직 JAVA를 고집할까?
+
+</p>
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/info/about-me/" rel="permalink">About Me!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 분 소요
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">“NOTHING IS IMPOSSIBLE!”
+
+</p>
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/base/genetic-algorithm-using-deap-one-max-problem/" rel="permalink">Genetic Algorithm using DEAP - One Max Problem
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  최대 1 분 소요
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">링크[http://deap.readthedocs.io/en/master/examples/ga_onemax.html]
+
+</p>
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/base/genetic-algorithm-using-deap/" rel="permalink">Genetic Algorithm using DEAP
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 분 소요
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Overview
+유연성 제공
+
+</p>
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/base/the-perceptron-algorithm-with-python/" rel="permalink">The Perceptron Algorithm with Python
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 분 소요
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">출처:
+[https://machinelearningmastery.com/implement-perceptron-algorithm-scratch-python/]
+[https://pythonmachinelearning.pro/perceptrons-the-first-neural-netwo...</p>
+  </article>
+</div>
+
+
+
+
+<nav class="pagination">
+  
+  <ul>
+    
+    
+    <li><a href="#" class="disabled"><span aria-hidden="true">이전</span></a></li>
+    
+
+    
+    
+      <li><a href="#" class="disabled current">1</a></li>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+        
+        
+        <li><a href="/page2/">2</a></li>
+      
+    
+
+    
+    
+
+    
+      <li><a href="/page3/">3</a></li>
+    
+
+    
+    
+      <li><a href="/page2/">다음</a></li>
+    
+  </ul>
+</nav>
+
+
+
+  </div>
+</div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
     
 
-<!-- gist embed -->
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 ZeroHo. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
 
 
-<!-- disqus comments -->
 
 
-</body>
+
+
+
+
+  </body>
 </html>
