@@ -18,6 +18,7 @@ tags:
   - Python
   - Genetic Algorithm
   - Deap
+toc: true
 ---
 링크[http://deap.readthedocs.io/en/master/examples/ga_onemax.html]
 
