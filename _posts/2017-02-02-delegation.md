@@ -15,6 +15,8 @@ summaryfeed: false
 title: Delegation
 tags:
   - Swift
+toc: true
+category: Swift
 ---
 ## Cocoa Core Competencies) Delegation
 참고자료: [Apple](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Delegation.html#//apple_ref/doc/uid/TP40008195-CH14-SW2)
@@ -41,4 +43,3 @@ The delegate of most Cocoa framework classes is automatically registered as an o
 A data source is almost identical to a delegate. The difference is in the relationship with the delegating object. Instead of being delegated control of the user interface, a data source is delegated control of data. The delegating object, typically a view object such as a table view, holds a reference to its data source and occasionally asks it for the data it should display. A data source, like a delegate, must adopt a protocol and implement at minimum the required methods of that protocol. Data sources are responsible for managing the memory of the model objects they give to the delegating view.
 
 작성중 ...
-
