@@ -16,6 +16,7 @@ title: UIToolbar
 description: UIToolbar
 tags:
   - Swift
+toc: true
 ---
 ## Cocoa Touch - Swift) UIToolbar
 
