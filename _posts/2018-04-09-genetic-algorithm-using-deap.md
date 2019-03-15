@@ -18,6 +18,7 @@ tags:
   - Python
   - DEAP
   - Genetic Algorithm
+toc: true
 ---
 ## Overview
 유연성 제공
@@ -148,11 +149,3 @@ or
 or from source
 
 `python setup.py intsall`
-
-
-
-
-
-
-
-
