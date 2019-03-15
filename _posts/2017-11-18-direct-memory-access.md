@@ -16,6 +16,7 @@ summaryfeed: false
 title: Direct Memory Access
 tags:
   - Cortext M3
+toc: true
 ---
 
 Cortex m3에서 DMA는 2개의 Controller에 의해 작동한다.
@@ -47,11 +48,3 @@ DMA 동작 모드에는 Circular mode가 있다. 이는 circular buffer와 연�
 ![DMA1_requeset_by_channel.png]({{site.baseurl}}/images/media/DMA1_requeset_by_channel.png)
 ![DMA2_request_byChannel.png]({{site.baseurl}}/images/media/DMA2_request_byChannel.png)
 ![DMA2_request_mux.png]({{site.baseurl}}/images/media/DMA2_request_mux.png)
-
- 
-
- 
-
- 
- 
-
