@@ -6,7 +6,7 @@ category: Language
 show_meta: true
 comments: true
 mathjax: false
-title: imagesGarbage Collector 정리"
+title: Garbage Collector 정리
 tags:
   - JAVA
   - JVM
@@ -23,7 +23,7 @@ toc: true
 
 
 ## Garbage
-> 주소르 잃어버려서 사용할 수 없는 메모리  
+> 주소를 잃어버려서 사용할 수 없는 메모리  
 > **Dangling Object**  
 
 - - - -
@@ -72,7 +72,7 @@ toc: true
 ##### 특징
 * Survivor 영역 중 하나는 반드시 비어있는 상태로 남아짐
 
-![]({{site_url}}/images/media/Garbage%20Collector/E526B6C6-F650-47B2-A1A8-3A1662D876B7.png)
+![]({{site.baseurl}}/images/media/Garbage%20Collector/E526B6C6-F650-47B2-A1A8-3A1662D876B7.png)
 
 #### HotSpot JVM 의 특징
 빠른 메모리 할당을 위해 -> bump-the-pointer & TLABs(Thread-Level Allocation Buffers)
@@ -100,7 +100,7 @@ toc: true
 * 크기가 커 GC적게 발생
 * -> 사라질때 **Major GC(Full GC)** 발생한다고 말함
 
-![]({{site_url}}/images/media/Garbage%20Collector/A715BDE9-A0F1-4640-843B-C98E4DDEF131.png)
+![]({{site.baseurl}}/images/media/Garbage%20Collector/A715BDE9-A0F1-4640-843B-C98E4DDEF131.png)
 
 * 데이터가 가득 차면 GC 실행
 * GC 방식에 따라 처리 절차가 다름
@@ -152,7 +152,7 @@ toc: true
 **Stop-the-world**시간이 매우 짧음
 -> 응답 속도가 매우 중요할 때 사용
 
-![]({{site_url}}/images/media/Garbage%20Collector/AB1A0D76-65E1-4766-8E2A-280B32F11D41.png)
+![]({{site.baseurl}}/images/media/Garbage%20Collector/AB1A0D76-65E1-4766-8E2A-280B32F11D41.png)
 	
 
 ###### 단점
@@ -165,7 +165,7 @@ toc: true
 ##### G1 GC
 > 위의 방식과는 완전히 다른 방식  
 
-![]({{site_url}}/images/media/Garbage%20Collector/1F6E6E53-5A92-4240-9E8C-5C230B0ED087.png)
+![]({{site.baseurl}}/images/media/Garbage%20Collector/1F6E6E53-5A92-4240-9E8C-5C230B0ED087.png)
 
 * 바둑판 영역에 객체 할당하고 GC 
 * 해당 영역이 가득차면 다른 영역에 객체 할당하고 GC 실행(Young 영역의 세가지 영역에서 Old 영역으로 이동하는 단계가 없어진 것으로 보면된다)
@@ -182,5 +182,4 @@ toc: true
 * 장비당 WAS 인스턴스 수
 등등 영향을 주는 외부 요인들이 많다!
 
-> 지속적인 튜닝 / 모니터링 통해 가장 적합한 옵션을 찾아야할 것  
-
+> 지속적인 튜닝 / 모니터링 통해 가장 적합한 옵션을 찾아야할 것
