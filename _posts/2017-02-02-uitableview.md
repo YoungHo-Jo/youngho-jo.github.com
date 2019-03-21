@@ -14,9 +14,10 @@ sitemap: true
 summaryfeed: false
 title: UITableView
 description: UITableView 생성 및 활용하기
-category: info
+category: iOS
 tags:
   - Swift
+toc: true
 ---
 ## CocoaTouch/Swift) UITableView
 
@@ -94,5 +95,3 @@ tableView(_:cellForRowAtIndexPath:)
 	// CustomCell 앞의 방법과 비슷하게 만들어 주고
 	// cell에 연결된 값을 수정하여 리턴시켜준다.
 {% endhighlight %}
-        
-

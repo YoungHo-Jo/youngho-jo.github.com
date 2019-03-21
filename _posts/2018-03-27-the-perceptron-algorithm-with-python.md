@@ -18,6 +18,7 @@ tags:
   - Perceptron
   - AI
   - Python
+toc: true
 ---
 
 출처:

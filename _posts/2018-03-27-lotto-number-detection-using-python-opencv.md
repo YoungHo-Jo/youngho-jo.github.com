@@ -17,6 +17,7 @@ title: Lotto Number Detection using Python & OpenCV
 tags:
   - Python
   - OpenCV
+toc: true
 ---
 ## Base
 
@@ -50,12 +51,3 @@ cv2.destroyAllWindows() # Close all windows
 
 ## Gaussian Smoothing
 A technique for reducing noise in an image by averaging each pixel with its surrounding pixels.
-
-
-
-
-
-
-
-
-

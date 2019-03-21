@@ -17,6 +17,7 @@ title: 'JAVA vs. NodeJS... '
 tags:
   - JAVA
   - NodeJs
+toc: true
 ---
 ## 많은 큰 기업들이 아직 JAVA를 고집할까?
 
@@ -52,7 +53,3 @@ tags:
 ### JAVA의 단점
 
 1. JAVA다...?
-
-
-
-
