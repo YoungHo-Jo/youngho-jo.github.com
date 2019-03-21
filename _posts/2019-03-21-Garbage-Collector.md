@@ -6,7 +6,7 @@ category: Language
 show_meta: true
 comments: true
 mathjax: false
-title: imagesGarbage Collector 정리"
+title: Garbage Collector 정리
 tags:
   - JAVA
   - JVM
@@ -23,7 +23,7 @@ toc: true
 
 
 ## Garbage
-> 주소르 잃어버려서 사용할 수 없는 메모리  
+> 주소를 잃어버려서 사용할 수 없는 메모리  
 > **Dangling Object**  
 
 - - - -
@@ -182,5 +182,4 @@ toc: true
 * 장비당 WAS 인스턴스 수
 등등 영향을 주는 외부 요인들이 많다!
 
-> 지속적인 튜닝 / 모니터링 통해 가장 적합한 옵션을 찾아야할 것  
-
+> 지속적인 튜닝 / 모니터링 통해 가장 적합한 옵션을 찾아야할 것
