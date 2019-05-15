@@ -1,13 +1,13 @@
 ---
 published: true
-layout: single
+layout: post
 date: '2019-05-14 18:06 +0900'
-category: Front-End
 show_meta: true
 comments: true
+category: react
 tags:
-  - JavaScript
-  - React
+  - javascript
+  - front-end
 toc: true
 ---
 # React Document 읽기!

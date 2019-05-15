@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2017-02-02 17:29 +0900'
 modified: '2017-02-02 17:29 +0900'
@@ -16,7 +16,7 @@ title: UITableView
 description: UITableView 생성 및 활용하기
 category: iOS
 tags:
-  - Swift
+  - swift
 toc: true
 ---
 ## CocoaTouch/Swift) UITableView

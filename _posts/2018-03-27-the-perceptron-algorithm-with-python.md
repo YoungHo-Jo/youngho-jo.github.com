@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2018-03-27 18:05 +0900'
 modified: '2018-03-27 18:05 +0900'
-category: base
 imagefeature: sitelogo.png
 show_meta: true
 comments: true
@@ -14,10 +13,11 @@ hide_printmsg: false
 sitemap: true
 summaryfeed: false
 title: The Perceptron Algorithm with Python
+category: deap-learning
 tags:
-  - Perceptron
-  - AI
-  - Python
+  - perceptron
+  - ai
+  - python
 toc: true
 ---
 

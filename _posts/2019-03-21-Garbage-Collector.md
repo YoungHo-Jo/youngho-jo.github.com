@@ -1,16 +1,14 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2019-03-17 13:42 +0900'
-category: Language
+category: java
 show_meta: true
 comments: true
 mathjax: false
 title: Garbage Collector 정리
 tags:
-  - JAVA
-  - JVM
-  - GC
+  - jvm
 toc: true
 ---
 

@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2018-04-09 19:10 +0900'
 modified: '2018-04-09 19:10 +0900'
-category: base
 imagefeature: sitelogo.png
 show_meta: true
 comments: true
@@ -14,10 +13,11 @@ hide_printmsg: false
 sitemap: true
 summaryfeed: false
 title: Genetic Algorithm using DEAP
+category: algorithm
 tags:
-  - Python
-  - DEAP
-  - Genetic Algorithm
+  - python
+  - deap
+  - genetic algorithm
 toc: true
 ---
 ## Overview

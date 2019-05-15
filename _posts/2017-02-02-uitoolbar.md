@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2017-02-02 16:58 +0900'
 modified: '2017-02-02 16:58 +0900'
@@ -14,8 +14,9 @@ sitemap: true
 summaryfeed: false
 title: UIToolbar
 description: UIToolbar
+category: iOS
 tags:
-  - Swift
+  - swift
 toc: true
 ---
 ## Cocoa Touch - Swift) UIToolbar

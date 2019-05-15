@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2019-01-07 12:31 +0900'
 modified: '2019-01-07 12:31 +0900'
-category: base
 imagefeature: sitelogo.png
 show_meta: true
 comments: true

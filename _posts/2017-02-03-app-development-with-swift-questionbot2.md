@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2017-02-03 16:14 +0900'
 modified: '2017-02-03 16:14 +0900'
@@ -14,8 +14,9 @@ sitemap: true
 summaryfeed: false
 title: App Development with Swift) QuestionBot2 구성 파헤치기
 description: iBooks - App Development with Swift
+category: iOS
 tags:
-  - Swift
+  - swift
 toc: true
 ---
 ## iBooks - "App Development with Swift"

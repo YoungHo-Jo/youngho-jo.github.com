@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2017-02-02 22:44 +0900'
 modified: '2017-02-02 22:44 +0900'
@@ -13,10 +13,10 @@ hide_printmsg: false
 sitemap: true
 summaryfeed: false
 title: Delegation
+category: iOS
 tags:
-  - Swift
+  - swift
 toc: true
-category: Swift
 ---
 ## Cocoa Core Competencies) Delegation
 참고자료: [Apple](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Delegation.html#//apple_ref/doc/uid/TP40008195-CH14-SW2)

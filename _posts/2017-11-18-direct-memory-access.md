@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2017-11-18 16:04 +0900'
 modified: '2017-11-18 16:04 +0900'
-category: base
 imagefeature: sitelogo.png
 show_meta: true
 comments: true
@@ -14,8 +13,9 @@ hide_printmsg: false
 sitemap: true
 summaryfeed: false
 title: Direct Memory Access
+category: embedded
 tags:
-  - Cortext M3
+  - Cortex M3
 toc: true
 ---
 

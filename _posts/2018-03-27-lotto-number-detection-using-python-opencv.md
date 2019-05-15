@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: post
 published: true
 date: '2018-03-27 18:04 +0900'
 modified: '2018-03-27 18:04 +0900'
-category: base
 imagefeature: sitelogo.png
 show_meta: true
 comments: true
@@ -14,9 +13,10 @@ hide_printmsg: false
 sitemap: true
 summaryfeed: false
 title: Lotto Number Detection using Python & OpenCV
+category: computer-visual
 tags:
-  - Python
-  - OpenCV
+  - python
+  - opencv
 toc: true
 ---
 ## Base
